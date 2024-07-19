@@ -123,7 +123,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Gerbers2_0.8/")
+			(outputdirectory "../../Gerbers/SolarPanels/")
 		)
 	)
 	(net 0 "")
@@ -2498,7 +2498,7 @@
 	(footprint "clipboard:eb50a26b-5fb6-463a-8dd0-ee5887daaa13"
 		(layer "F.Cu")
 		(uuid "8144459c-eafb-4e71-985d-97c5a4935ba2")
-		(at 148.256812 55.861755)
+		(at 158.2168 43.720555)
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -3789,7 +3789,7 @@
 	(footprint "X Label"
 		(layer "F.Cu")
 		(uuid "cc5a4ba7-36b9-4eb3-921c-a54e60010d0c")
-		(at 152.396812 58.8772)
+		(at 162.3568 46.736)
 		(property "Reference" "REF**"
 			(at 0 -12.2 0)
 			(unlocked yes)
@@ -17444,7 +17444,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R76"
-			(at 0.012201 -10.3378 90)
+			(at 0.2416 5.5118 90)
 			(layer "B.SilkS")
 			(uuid "16164f45-149c-45f3-a41a-bbfa280f1b6d")
 			(effects
@@ -24298,7 +24298,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R81"
-			(at 0.013298 10.3434 90)
+			(at 0.215699 5.492 90)
 			(layer "B.SilkS")
 			(uuid "a7f1b3dd-f085-4daa-a3a6-49fda28a39f9")
 			(effects
@@ -42750,7 +42750,7 @@
 		(descr "SOT-363, SC-70-6")
 		(tags "SOT-363 SC-70-6")
 		(property "Reference" "Q16"
-			(at -6.8458 -1.587002 0)
+			(at -2.1976 -0.825801 90)
 			(layer "B.SilkS")
 			(uuid "0113e426-3472-4d6a-9f94-7d84081c7c6c")
 			(effects
@@ -55964,6 +55964,17 @@
 		)
 		(layer "B.SilkS")
 		(uuid "ffecb306-e605-4c64-b2fe-dd8e3a808650")
+	)
+	(gr_rect
+		(start 149.4282 54.4068)
+		(end 155.3718 60.1218)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5a7b9b07-70cb-4f12-838a-5795ac9178ea")
 	)
 	(gr_line
 		(start 117.91595 53.41628)
