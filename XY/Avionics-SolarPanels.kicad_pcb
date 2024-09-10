@@ -475,7 +475,7 @@
 		(descr "http://www.diodes.com/_files/datasheets/ds30497.pdf")
 		(tags "PowerDI diode vishay")
 		(property "Reference" "D3"
-			(at -0.000001 -1.8034 180)
+			(at -2.6152 0 180)
 			(layer "F.SilkS")
 			(uuid "f8e6cbca-dd07-48a1-a31e-6d64da794c17")
 			(effects
@@ -484,6 +484,7 @@
 					(thickness 0.127)
 					(bold yes)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "DFLS130L-7"
@@ -919,7 +920,7 @@
 			(pintype "passive")
 			(uuid "43e7fe30-8f54-4faa-962a-3a9040eb31ee")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SM141K06TF.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SM141K06TF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1504,7 +1505,7 @@
 			(pintype "power_out")
 			(uuid "0f706c00-71c7-4a60-b677-d88921407262")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/OPT4003DNPRQ1.STEP"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/OPT4003DNPRQ1.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1871,7 +1872,7 @@
 			(pintype "passive")
 			(uuid "d86d3171-4b2a-486a-a7db-4367d65e1eb0")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SM141K10TF.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SM141K10TF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3249,7 +3250,7 @@
 			(pintype "passive")
 			(uuid "3a2eca1b-007b-472e-a85c-4b382d93e7cb")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SM141K06TF.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SM141K06TF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4362,7 +4363,7 @@
 			(pintype "passive")
 			(uuid "b9aa88f0-a4de-4bca-8ce1-e642e8d227b4")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SM141K06TF.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SM141K06TF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4758,7 +4759,7 @@
 			(pintype "passive")
 			(uuid "1f57ecd0-a59f-4e8b-8038-a0b1386b0f20")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SM141K06TF.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SM141K06TF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10804,7 +10805,7 @@
 			(pintype "passive")
 			(uuid "4e66ea12-af1d-47f3-a3c5-07cc20fec2be")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/2005280100.stp"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/2005280100.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12905,7 +12906,7 @@
 			(pintype "passive")
 			(uuid "3e8c0315-98c2-4b38-a014-f6da3765604d")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/srf2012a.stp"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/srf2012a.stp"
 			(offset
 				(xyz 0 0 0.6)
 			)
@@ -18751,7 +18752,7 @@
 			(pintype "passive")
 			(uuid "fca56093-9bca-4bc9-b94e-ba2fb218ea63")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/LSM115JE3_TR13.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/LSM115JE3_TR13.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23275,7 +23276,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(uuid "99ed9135-4846-4b21-ac67-4c6596f6c20a")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/NRVB440MFSWFT3G.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/NRVB440MFSWFT3G.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28189,7 +28190,7 @@
 			(pintype "passive")
 			(uuid "d6ffef96-13dd-4f27-8020-cbba877566cb")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/XGL3520.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/XGL3520.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33977,7 +33978,7 @@
 			)
 			(uuid "1d0d9f49-65f7-4d7e-bb93-9ebcad29f6e7")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/Coilcraft-LPS4018.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/Coilcraft-LPS4018.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35258,7 +35259,7 @@
 			)
 			(uuid "df051ced-0265-42f4-bbb0-3ae0b4280f95")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/Coilcraft-LPS4018.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/Coilcraft-LPS4018.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36626,7 +36627,7 @@
 			(pintype "passive")
 			(uuid "9b6eee16-0ec7-4454-b4bd-e8d811d94266")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/LSM115JE3_TR13.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/LSM115JE3_TR13.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37983,7 +37984,7 @@
 			)
 			(uuid "f05a1e94-fccc-4d0f-806d-198f555e236d")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/Coilcraft-LPS4018.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/Coilcraft-LPS4018.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47442,7 +47443,7 @@
 			(pintype "passive")
 			(uuid "3c868891-006c-4e1d-9dc8-2610fcdbe122")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/2005280100.stp"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/2005280100.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53328,7 +53329,7 @@
 			(pintype "passive")
 			(uuid "69fee544-9953-4406-84c1-e86901214cac")
 		)
-		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/LSM115JE3_TR13.step"
+		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/LSM115JE3_TR13.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57504,6 +57505,30 @@
 					(xy 155.233385 150.328912) (xy 155.074569 150.328912) (xy 155.074569 150.090688) (xy 155.50511 150.090688)
 					(xy 155.50511 151.17064) (xy 155.233385 151.17064)
 				)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 154.6352 61.5188 0)
+		(layer "F.SilkS")
+		(uuid "61f80bb5-b58e-488e-8a8e-cb859bee85b6")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 154.6352 65.151 0)
+		(layer "F.SilkS")
+		(uuid "6ca2e95f-9d89-44f2-a1ec-0c11627df217")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
 			)
 		)
 	)
