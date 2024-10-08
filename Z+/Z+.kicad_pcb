@@ -122,9 +122,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -42884,7 +42884,7 @@
 			(xy 108.951074 52.832061) (xy 108.951074 150.832061)
 		)
 		(height 16.8152)
-		(gr_text "3858.2677 mils"
+		(gr_text "98.0000 mm"
 			(at 90.985874 101.832061 90)
 			(layer "Dwgs.User")
 			(uuid "976a9e11-a428-4d98-87fa-2382fa7a7355")
@@ -42917,7 +42917,7 @@
 			(xy 101.251074 60.532061) (xy 199.251074 60.532061)
 		)
 		(height -19.1046)
-		(gr_text "3858.2677 mils"
+		(gr_text "98.0000 mm"
 			(at 150.251074 40.277461 0)
 			(layer "Dwgs.User")
 			(uuid "b7ebe635-c649-43cc-9b56-cb0ea239cb17")

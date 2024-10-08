@@ -4501,7 +4501,7 @@
 		)
 		(uuid "694a7822-de37-406d-bffe-bd7c041830a4")
 	)
-	(text "I2C ADDR\n0x94\nInstall R95: 0x90"
+	(text "I2C ADDR\n0x94\nInstall R66: 0x90"
 		(exclude_from_sim no)
 		(at 75.438 131.826 0)
 		(effects
@@ -4512,7 +4512,7 @@
 		)
 		(uuid "c78c3983-51a4-4440-8d51-ec66dc0e4b98")
 	)
-	(text "I2C ADDR\n0x84\nInstall R94: 0x80"
+	(text "I2C ADDR\n0x84\nInstall R67: 0x80"
 		(exclude_from_sim no)
 		(at 75.438 181.356 0)
 		(effects
@@ -4523,7 +4523,7 @@
 		)
 		(uuid "d7fc52c9-b1c9-49c5-a833-e1d3208679f1")
 	)
-	(text "I2C ADDR\n0x64\nInstall R96: 0x63"
+	(text "I2C ADDR\n0x64\nInstall R68: 0x63"
 		(exclude_from_sim no)
 		(at 185.166 147.32 0)
 		(effects
