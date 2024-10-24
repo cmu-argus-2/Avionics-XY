@@ -4127,7 +4127,7 @@
 		)
 		(uuid "694a7822-de37-406d-bffe-bd7c041830a4")
 	)
-	(text "I2C ADDR\n0x94\nInstall R95: 0x90"
+	(text "I2C ADDR\n0x4A\nInstall R95: 0x48"
 		(exclude_from_sim no)
 		(at 72.898 116.586 0)
 		(effects
