@@ -64,11 +64,11 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -76,8 +76,8 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "footprint_type_mismatch": "warning",
+        "hole_clearance": "warning",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -89,25 +89,25 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
-        "shorting_items": "ignore",
+        "pth_inside_courtyard": "warning",
+        "shorting_items": "warning",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
-        "track_width": "ignore",
+        "track_width": "warning",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
@@ -544,11 +544,59 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNI",
+          "name": "DNI",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Flight",
+          "name": "Flight",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Proto",
+          "name": "Proto",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -601,12 +649,44 @@
       "Bus Protection"
     ],
     [
+      "059f9182-99e9-4f25-a784-63265af76fda",
+      "I2C Protection1"
+    ],
+    [
       "e87a29de-7d32-474a-998c-af2c5508d1e2",
       "Burn Wires"
     ],
     [
       "a90023fb-0fab-4c1a-9223-dcb77ef77cb2",
       "I2C Devices"
+    ],
+    [
+      "8f40f9df-da92-4903-ad6f-959c63c81004",
+      "I2C Protection"
+    ],
+    [
+      "2783a837-bd1d-411b-9ce4-91a04db84da5",
+      "I2C Protection2"
+    ],
+    [
+      "6dfcd408-1b37-44a7-8955-05de5e796972",
+      "I2C Protection3"
+    ],
+    [
+      "af4051e6-41a0-4d21-81f1-1e21893394bf",
+      "I2C Protection4"
+    ],
+    [
+      "a76f69ae-7ee6-4940-928c-ef6e71f497e2",
+      "I2C Protection5"
+    ],
+    [
+      "9a53ceb0-98db-4eef-963d-fc204f6c547e",
+      "I2C Protection6"
+    ],
+    [
+      "3231c5d1-2654-4837-8082-98c29fa46639",
+      "I2C Protection7"
     ]
   ],
   "text_variables": {}
