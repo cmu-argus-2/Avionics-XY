@@ -642,36 +642,68 @@
       "Root"
     ],
     [
-      "8f5fe88e-066c-485c-b28f-c3b6b15eba35",
-      "MPPT"
-    ],
-    [
-      "6cd1064e-7dd6-462b-a2c6-27b106c778ec",
-      "MPPT1"
-    ],
-    [
-      "629fa4b5-76ce-49dc-8133-549211ff302e",
-      "MPPT2"
-    ],
-    [
-      "05f8b2bd-a309-4aae-8de3-0566bfd3a2c6",
-      "I2C Devices"
-    ],
-    [
-      "e7b397e6-cf2a-4087-9aa2-8fea97a86f25",
-      "Bus Protection"
-    ],
-    [
-      "65df5df0-194e-419e-ae78-57999f0e6884",
+      "6c74510c-fc2f-4690-9a5b-9f1baf296eee",
       "Charge OR-ing"
     ],
     [
-      "3855bffa-6f88-453d-a268-72ee6edf624f",
+      "16f90485-8271-472f-a87a-9c27ffab6e8f",
       "Charge OR-ing1"
     ],
     [
-      "02b1b3dd-6e78-48a0-b873-04e1640b3a54",
+      "b4f3b5ea-3783-47e9-83c1-86877692286f",
       "Charge OR-ing2"
+    ],
+    [
+      "4e3e35be-185d-45f8-8e31-9bc7a632d527",
+      "MPPT"
+    ],
+    [
+      "9b8f914f-a28e-4852-9908-5bd9180ffa1b",
+      "MPPT1"
+    ],
+    [
+      "91163359-5a73-44f7-b3d7-34155e842a18",
+      "MPPT2"
+    ],
+    [
+      "757bbe31-359d-4282-a8be-b82658fcdbcd",
+      "Coil Driver"
+    ],
+    [
+      "4bafff54-f633-4da8-a635-19b5cf441fe5",
+      "I2C Single Protection"
+    ],
+    [
+      "82ce4936-26b6-4ef6-942c-821d42575ca3",
+      "I2C Single Protection1"
+    ],
+    [
+      "11f70c33-4cbb-4233-8e61-18a8fe174f05",
+      "Light Sensor"
+    ],
+    [
+      "e7e939ee-570b-4630-8c1c-6ded6f4f4534",
+      "I2C Single Protection2"
+    ],
+    [
+      "ac2963a4-7bc7-474c-9155-6a85b25d038f",
+      "I2C Single Protection3"
+    ],
+    [
+      "bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66",
+      "Solar Charger"
+    ],
+    [
+      "2f1bddd8-08e8-4279-a690-b5237fc43482",
+      "I2C Single Protection4"
+    ],
+    [
+      "281d608c-0adc-47e2-a0e6-d9b27e3edbd5",
+      "Interfaces"
+    ],
+    [
+      "ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8",
+      "I2C Single Protection5"
     ]
   ],
   "text_variables": {}
