@@ -4837,7 +4837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 41.91 153.67 0)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 41.91 109.22 0)
 			(effects
 				(font
@@ -5922,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 123.19 31.75 0)
 			(effects
 				(font

@@ -5,530 +5,6 @@
 	(uuid "4edeffde-a9bd-4d55-ac04-55e3de6de8cb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Argus-Misc:SIRA99DP-T1-GE3"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 11.43 -0.635 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SIRA99DP-T1-GE3"
-				(at 11.43 -5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "SIRA99DP-T1-GE3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SIRA99DP-T1-GE3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MOSFET_7DP-T1-GE3_VIS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SIRA99DP-T1-GE3_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 4.445 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -5.08) (xy 4.445 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -4.445) (xy 6.985 -4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.175) (xy 5.08 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.27) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.635) (xy 6.985 -0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 10.16 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -5.08) (xy 8.255 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -0.635) (xy 6.985 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 8.255 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -5.08) (xy 8.255 -3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -1.905) (xy 8.255 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -1.905) (xy 7.62 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 -1.778) (xy 6.858 -2.413) (xy 5.588 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -3.175) (xy 7.62 -3.175) (xy 8.255 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.35 -2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -5.08)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 0)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -10.16 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -10.16 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -10.16 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -10.16 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SIRA99DP-T1-GE3_1_1"
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.858 -2.286) (xy 6.858 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -5.08) (xy 7.112 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1129,6 +605,332 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:CSD25402Q3A"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.715 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CSD25402Q3A"
+				(at 11.811 -0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+				(at 30.353 -4.699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+				(at 31.115 -2.413 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-MOS PMOS single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSON*3.3x3.3mm*P0.65mm*NexFET*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CSD25402Q3A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "CSD25402Q3A_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1239,12 +1041,6 @@
 		(uuid "1442fb1c-634c-483f-b6e6-43eef01db35c")
 	)
 	(junction
-		(at 148.59 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f6df5be-b9aa-408c-ae80-5bf14c7dfa3a")
-	)
-	(junction
 		(at 128.27 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1261,18 +1057,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcd90d11-62ab-4313-a721-2939def18414")
-	)
-	(junction
-		(at 133.35 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd45c1ea-e7f9-4ba1-be2d-3ef6e5b0e301")
-	)
-	(junction
-		(at 133.35 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe7bacc1-e7f0-4d53-a3fb-01321d289496")
 	)
 	(no_connect
 		(at 151.13 102.87)
@@ -1300,26 +1084,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 148.59 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "169179b1-95b2-4378-82ae-12892394aff3")
-	)
-	(wire
-		(pts
-			(xy 133.35 72.39) (xy 133.35 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a5c7566-e813-4cbf-ad1b-8dc8aa01056e")
-	)
-	(wire
-		(pts
 			(xy 140.97 113.03) (xy 140.97 110.49)
 		)
 		(stroke
@@ -1337,16 +1101,6 @@
 			(type default)
 		)
 		(uuid "30c4829e-e9f7-4322-ae38-caefa62e6c28")
-	)
-	(wire
-		(pts
-			(xy 140.97 85.09) (xy 143.51 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341714e2-2fee-450b-a7c2-53be27516f44")
 	)
 	(wire
 		(pts
@@ -1370,17 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 74.93) (xy 133.35 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4df50c4d-79de-4386-a97d-bda64ecb28d9")
-	)
-	(wire
-		(pts
-			(xy 123.19 77.47) (xy 133.35 77.47)
+			(xy 123.19 77.47) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1390,13 +1134,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 77.47) (xy 153.67 77.47)
+			(xy 146.05 77.47) (xy 153.67 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55685a76-fa2d-4b77-9bf4-9a842f90ade1")
+		(uuid "6d9df812-efb0-46ed-8012-16548ea990d3")
 	)
 	(wire
 		(pts
@@ -1450,16 +1194,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 77.47) (xy 133.35 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f9e736-7c31-4841-a7dd-82ef5114256c")
-	)
-	(wire
-		(pts
 			(xy 128.27 113.03) (xy 128.27 102.87)
 		)
 		(stroke
@@ -1477,16 +1211,6 @@
 			(type default)
 		)
 		(uuid "d965037f-48e9-4b06-a590-b4702c58dd7e")
-	)
-	(wire
-		(pts
-			(xy 148.59 77.47) (xy 148.59 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcfcce56-be6b-426d-9d3c-201bf465a94c")
 	)
 	(wire
 		(pts
@@ -1602,7 +1326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ad7d3d7-91cb-4fb2-939e-dac948802b69")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 121.158 104.394 0)
 			(effects
 				(font
@@ -1680,7 +1404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8287914f-fa1c-4921-82d2-83db8a2dbe36")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 143.1641 87.63 0)
 			(effects
 				(font
@@ -1770,7 +1494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8649d458-f766-4ff3-a417-55a0c084f382")
-		(property "Reference" "F3"
+		(property "Reference" "F4"
 			(at 116.84 72.39 0)
 			(effects
 				(font
@@ -1786,7 +1510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 116.84 77.47 0)
 			(effects
 				(font
@@ -1837,6 +1561,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:CSD25402Q3A")
+		(at 140.97 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f46134a-e119-42ef-8953-b1a052c743f2")
+		(property "Reference" "U7"
+			(at 140.97 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CSD25402Q3A"
+			(at 140.97 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 145.669 49.657 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+			(at 143.383 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2f17a928-2bd5-4b5d-b0ef-05eb28f8e83a")
+		)
+		(pin "1"
+			(uuid "40e65329-9a2d-4104-abbe-873a40c0ee14")
+		)
+		(pin "5"
+			(uuid "d7548be3-09a6-40eb-b4d4-3362dc6526db")
+		)
+		(pin "2"
+			(uuid "c8646e9c-c9d4-433d-8cec-fe37835ba7fd")
+		)
+		(pin "4"
+			(uuid "c4cee25d-687e-4ad7-9aac-62158717cd07")
+		)
+		(instances
+			(project ""
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/16f90485-8271-472f-a87a-9c27ffab6e8f"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/6c74510c-fc2f-4690-9a5b-9f1baf296eee"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/b4f3b5ea-3783-47e9-83c1-86877692286f"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 115.57 0)
 		(mirror y)
@@ -1846,7 +1655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1a80ecf-3a17-47b6-8288-b49bca1d1caa")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 140.97 121.92 0)
 			(effects
 				(font
@@ -1911,103 +1720,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Argus-Misc:SIRA99DP-T1-GE3")
-		(at 143.51 85.09 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9f32a97-c1a6-49c7-b969-8c2c29aac072")
-		(property "Reference" "U3"
-			(at 140.97 67.31 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SIRA99DP-T1-GE3"
-			(at 140.97 69.85 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SolarPanels:MOSFET_7DP-T1-GE3_VIS"
-			(at 143.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SIRA99DP-T1-GE3"
-			(at 143.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "6de4cbb1-ca13-4041-96f0-f548f90da35e")
-		)
-		(pin "6"
-			(uuid "6e88a8c9-1396-424c-ac08-12970574b64d")
-		)
-		(pin "7"
-			(uuid "cf736e6b-4072-4183-8569-ddb08bce5c82")
-		)
-		(pin "8"
-			(uuid "12511fcf-52eb-4c0d-8305-5413da18467a")
-		)
-		(pin "2"
-			(uuid "9d96b12a-85af-4cee-b0a0-3f841ca46f04")
-		)
-		(pin "1"
-			(uuid "a0686685-194d-40c7-be72-2283d574318b")
-		)
-		(pin "4"
-			(uuid "19fcf302-74d5-4431-a5c3-afcf070c8bb7")
-		)
-		(pin "3"
-			(uuid "16d96d9f-df83-40da-b790-7dbd3d9b96ea")
-		)
-		(instances
-			(project "Avionics-SolarPanels"
-				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/16f90485-8271-472f-a87a-9c27ffab6e8f"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/6c74510c-fc2f-4690-9a5b-9f1baf296eee"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/b4f3b5ea-3783-47e9-83c1-86877692286f"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:PMEG4005EH")
 		(at 139.7 59.69 180)
 		(unit 1)
@@ -2017,7 +1729,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ef7fe20a-6839-4bfd-8166-e7219fa781f2")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 140.0175 53.34 0)
 			(effects
 				(font

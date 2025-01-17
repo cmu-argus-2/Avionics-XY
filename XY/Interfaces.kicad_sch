@@ -1259,12 +1259,6 @@
 		(color 0 0 0 0)
 		(uuid "e626ef85-c68f-41e7-afb3-2df5a73e790b")
 	)
-	(junction
-		(at 128.27 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3654c1b-8d76-407b-b246-98ee415fa967")
-	)
 	(wire
 		(pts
 			(xy 128.27 104.14) (xy 133.35 104.14)
@@ -1274,16 +1268,6 @@
 			(type default)
 		)
 		(uuid "00dc422c-4aa6-4a6e-9ded-8978d95979fc")
-	)
-	(wire
-		(pts
-			(xy 128.27 86.36) (xy 128.27 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1710d165-94da-4b7a-8334-7946859953cd")
 	)
 	(wire
 		(pts
@@ -1477,6 +1461,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1eac08b-bedd-4ddb-83e1-1f6112340dba")
+	)
+	(wire
+		(pts
 			(xy 82.55 83.82) (xy 82.55 81.28)
 		)
 		(stroke
@@ -1588,6 +1582,28 @@
 		(uuid "17fc08b6-3752-4625-8650-95acdc62639f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.8076 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COIL_DRIVER_EN"
+		(shape output)
+		(at 133.35 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3431b43b-0708-402d-aafe-8ea1d1f3c7bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.6357 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 95.25 0)
 			(effects
 				(font
@@ -2221,7 +2237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 198.12 95.25 0)
 			(effects
 				(font

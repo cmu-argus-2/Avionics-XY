@@ -4611,7 +4611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 78.74 31.75 0)
 			(effects
 				(font
@@ -5496,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "1k"
 			(at 241.3 81.026 0)
 			(effects
 				(font
@@ -5564,7 +5564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MAIN_3V3"
+		(property "Value" "PERI_3V3"
 			(at 243.84 73.66 0)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 134.9248 90.17 0)
 			(effects
 				(font
