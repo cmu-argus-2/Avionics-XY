@@ -4011,7 +4011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WQFN16_RTE_TEX"
+		(property "Footprint" "Argus-IC:WQFN16_RTE_TEX"
 			(at 167.64 71.12 0)
 			(effects
 				(font

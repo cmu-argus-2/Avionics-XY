@@ -1622,7 +1622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:OPT4003"
+		(property "Footprint" "Argus-IC:OPT4003"
 			(at 129.794 112.014 0)
 			(effects
 				(font

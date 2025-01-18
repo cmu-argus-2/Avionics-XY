@@ -439,7 +439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
 			(at 170.18 119.38 0)
 			(effects
 				(font
@@ -569,7 +569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
 			(at 170.18 129.54 0)
 			(effects
 				(font
