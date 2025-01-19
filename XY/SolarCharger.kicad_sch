@@ -4181,7 +4181,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2c2584c8-f98f-4d7a-851e-691d59f02e37")
 		(property "Reference" "R16"
 			(at 57.912 67.564 0)
@@ -4581,7 +4581,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "49049347-4c1b-4994-bc8a-1e5103196ab3")
 		(property "Reference" "R20"
 			(at 56.896 156.464 0)
@@ -4650,7 +4650,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "517b7d88-30ec-426d-a8e1-4f503e5f63ef")
 		(property "Reference" "R21"
 			(at 56.642 164.084 0)
@@ -4661,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "107K"
+		(property "Value" "126k"
 			(at 55.626 166.116 0)
 			(effects
 				(font
@@ -4867,7 +4867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "127k"
+		(property "Value" "182k"
 			(at 97.536 187.706 0)
 			(effects
 				(font
@@ -5279,7 +5279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "127k"
+		(property "Value" "182k"
 			(at 97.536 98.806 0)
 			(effects
 				(font
@@ -5669,7 +5669,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "93df3ad9-2f39-4c70-a4ba-f7e6f54c27b8")
 		(property "Reference" "R18"
 			(at 57.912 112.014 0)
@@ -5941,7 +5941,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "aa5b79ba-7c12-4e2d-9b8e-9edb041d67e2")
 		(property "Reference" "R19"
 			(at 56.896 119.634 0)
@@ -5952,7 +5952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "107K"
+		(property "Value" "126k"
 			(at 55.626 121.666 0)
 			(effects
 				(font
@@ -6765,7 +6765,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "127k"
+		(property "Value" "182k"
 			(at 97.536 143.256 0)
 			(effects
 				(font
@@ -7092,7 +7092,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f6af4c69-f245-49e1-bc10-51ecd7b7ebb2")
 		(property "Reference" "R17"
 			(at 57.912 75.184 0)
@@ -7103,7 +7103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "107K"
+		(property "Value" "126k"
 			(at 55.626 77.216 0)
 			(effects
 				(font
