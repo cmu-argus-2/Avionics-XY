@@ -3093,7 +3093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS4018"
+		(property "Footprint" "Argus-Passives:L_Coilcraft_LPS4018"
 			(at 153.035 68.58 0)
 			(effects
 				(font
