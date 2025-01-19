@@ -482,7 +482,7 @@
       "plot": "../../Gerbers/SolarPanels/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../Board Models/Avionics-SolarPanels.step",
+      "step": "Avionics-SolarPanels.step",
       "svg": "",
       "vrml": ""
     },
