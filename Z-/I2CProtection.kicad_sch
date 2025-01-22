@@ -5,406 +5,7 @@
 	(uuid "3fd22853-3d70-4801-8953-da1bc9e30ce2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "SolarPanels:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SolarPanels:MBT2222ADW1T1"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MBT2222ADW1T1"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN/NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MBT2222ADW1T1_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MBT2222ADW1T1_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MBT2222ADW1T1_2_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SolarPanels:NX3008NBKS"
+		(symbol "Argus-Miscellaneous:NX3008NBKS"
 			(pin_names
 				(offset 0.762) hide)
 			(exclude_from_sim no)
@@ -929,7 +530,143 @@
 				)
 			)
 		)
-		(symbol "SolarPanels:R_Small"
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1042,6 +779,269 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MBT2222ADW1T1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MBT2222ADW1T1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN/NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBT2222ADW1T1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBT2222ADW1T1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MBT2222ADW1T1_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1663,7 +1663,7 @@
 		(uuid "b1d5d80b-671e-40d1-b86b-97a32fb192b1")
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 148.59 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1671,7 +1671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19d63a6f-d80f-432a-83ce-40da17c7aaee")
-		(property "Reference" "R14"
+		(property "Reference" "R22"
 			(at 147.32 56.134 0)
 			(effects
 				(font
@@ -1760,7 +1760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:NX3008NBKS")
+		(lib_id "Argus-Miscellaneous:NX3008NBKS")
 		(at 147.32 99.06 0)
 		(mirror y)
 		(unit 2)
@@ -1769,7 +1769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32788df6-7566-4d1a-93e3-da4dedf00c84")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 143.51 99.06 0)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 137.16 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1902,7 +1902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d6bf4c7-d3da-4c27-a5ca-317363681a10")
-		(property "Reference" "R1"
+		(property "Reference" "R19"
 			(at 137.16 74.422 90)
 			(effects
 				(font
@@ -1997,7 +1997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e08e749-4793-4bb1-89c0-4dce3d2dfb2a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 153.67 114.3 0)
 			(effects
 				(font
@@ -2032,7 +2032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -2082,7 +2082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 143.51 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2090,7 +2090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c1facd6-cf6f-4af2-9b48-487dc122450e")
-		(property "Reference" "R5"
+		(property "Reference" "R21"
 			(at 143.51 118.491 90)
 			(effects
 				(font
@@ -2186,7 +2186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:C")
+		(lib_id "Device:C")
 		(at 153.67 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2194,7 +2194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "906ad479-42a8-4d99-8aab-2c1484461aab")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 156.591 101.7016 0)
 			(effects
 				(font
@@ -2283,7 +2283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MBT2222ADW1T1")
+		(lib_id "Transistor_BJT:MBT2222ADW1T1")
 		(at 148.59 66.04 90)
 		(mirror x)
 		(unit 2)
@@ -2292,7 +2292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95d89589-4f71-46bd-8b55-b52b526687d6")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 148.59 72.009 90)
 			(effects
 				(font
@@ -2427,7 +2427,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 153.67 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2435,7 +2435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b0e8bcc-5507-4cd7-987c-09f213159a38")
-		(property "Reference" "R18"
+		(property "Reference" "R24"
 			(at 155.3972 91.5416 0)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:NX3008NBKS")
+		(lib_id "Argus-Miscellaneous:NX3008NBKS")
 		(at 132.08 93.98 0)
 		(mirror y)
 		(unit 1)
@@ -2533,7 +2533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5252199-d25a-4901-8d3e-ec00fb826cf8")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 128.016 93.98 0)
 			(effects
 				(font
@@ -2665,7 +2665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdfb60e8-9f0a-49a7-9b1f-0dd2d7553050")
-		(property "Reference" "#SUPPLY02"
+		(property "Reference" "#SUPPLY04"
 			(at 138.43 86.36 0)
 			(effects
 				(font
@@ -2750,7 +2750,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 138.43 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2758,7 +2758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee4514e5-eb91-4bbe-8429-1ebd89797f7b")
-		(property "Reference" "R3"
+		(property "Reference" "R20"
 			(at 139.954 89.154 0)
 			(effects
 				(font
@@ -2847,7 +2847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 153.67 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2855,7 +2855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f21a5589-1437-455c-9a71-945160b05b1b")
-		(property "Reference" "R17"
+		(property "Reference" "R23"
 			(at 154.94 62.484 0)
 			(effects
 				(font
@@ -2944,7 +2944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MBT2222ADW1T1")
+		(lib_id "Transistor_BJT:MBT2222ADW1T1")
 		(at 148.59 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2952,7 +2952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb10aec2-08f5-40eb-a4bf-a8d55a3877c6")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 148.59 89.408 90)
 			(effects
 				(font
@@ -3096,7 +3096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffc72e4c-42d6-4a11-9a73-03c238f55c2f")
-		(property "Reference" "#SUPPLY03"
+		(property "Reference" "#SUPPLY05"
 			(at 148.59 52.07 0)
 			(effects
 				(font

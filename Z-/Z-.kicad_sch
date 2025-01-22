@@ -5,185 +5,7 @@
 	(uuid "446ceff1-46b8-4829-b15a-92d0d6c980a6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_MountingPin"
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_MountingPin_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SolarPanels:ATB2012"
+		(symbol "Argus-Passives:ATB2012"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -467,7 +289,7 @@
 				)
 			)
 		)
-		(symbol "SolarPanels:Antenna"
+		(symbol "Argus-Passives:Antenna"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -575,7 +397,352 @@
 				)
 			)
 		)
-		(symbol "SolarPanels:Conn_01x10_MountingPin"
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_MountingPin"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x10_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -985,276 +1152,7 @@
 				)
 			)
 		)
-		(symbol "SolarPanels:Conn_Coaxial"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SolarPanels:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SolarPanels:R_Small"
+		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1367,6 +1265,108 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1612,12 +1612,6 @@
 		(uuid "3c4bd936-9e1a-433f-b2eb-5f70dc8743d2")
 	)
 	(junction
-		(at 228.6 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40a911aa-8fb4-4982-8ba9-fe45c75cb48f")
-	)
-	(junction
 		(at 252.73 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1678,10 +1672,10 @@
 		(uuid "c358b8ce-993c-4393-b924-6b39d32584c5")
 	)
 	(junction
-		(at 228.6 43.18)
+		(at 228.6 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c60cfe73-bf03-4c3c-a41e-5b44ab925eb2")
+		(uuid "d7d04b0a-4277-498e-80ae-edddde765034")
 	)
 	(junction
 		(at 154.94 38.1)
@@ -1707,16 +1701,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 40.64) (xy 233.68 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e9934fb-143c-4666-9aa4-bf33a432ca85")
-	)
-	(wire
-		(pts
 			(xy 115.57 36.83) (xy 115.57 38.1)
 		)
 		(stroke
@@ -1724,6 +1708,16 @@
 			(type default)
 		)
 		(uuid "1894f432-2f98-4a26-ba58-5617b65980ab")
+	)
+	(wire
+		(pts
+			(xy 228.6 40.64) (xy 233.68 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc5d0d5-c77f-430b-87c2-560b73f273f3")
 	)
 	(wire
 		(pts
@@ -1797,16 +1791,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 40.64) (xy 228.6 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37bdb327-f5f2-4f3f-8a5b-e1f0cca0d223")
-	)
-	(wire
-		(pts
 			(xy 57.15 73.66) (xy 57.15 71.12)
 		)
 		(stroke
@@ -1824,16 +1808,6 @@
 			(type default)
 		)
 		(uuid "40c971e7-f2cc-4579-81eb-fab224322b75")
-	)
-	(wire
-		(pts
-			(xy 228.6 43.18) (xy 228.6 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "420ac4a6-bdcf-4231-8a08-5fa51c842287")
 	)
 	(wire
 		(pts
@@ -2047,16 +2021,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 45.72) (xy 228.6 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8941354b-0d17-4dbf-8bc2-9c90639639dd")
-	)
-	(wire
-		(pts
 			(xy 219.71 38.1) (xy 214.63 38.1)
 		)
 		(stroke
@@ -2107,6 +2071,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 45.72) (xy 214.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a005cfad-a18b-45cb-ad03-5b9d47030903")
+	)
+	(wire
+		(pts
 			(xy 214.63 50.8) (xy 214.63 53.34)
 		)
 		(stroke
@@ -2147,16 +2121,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 45.72) (xy 228.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8ec6327-c62b-4289-8dec-9133b286ec7c")
-	)
-	(wire
-		(pts
 			(xy 191.77 38.1) (xy 191.77 27.94)
 		)
 		(stroke
@@ -2187,16 +2151,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 40.64) (xy 233.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b28e58c9-3b24-4786-97ef-6d8bd430b79c")
-	)
-	(wire
-		(pts
 			(xy 209.55 62.23) (xy 209.55 58.42)
 		)
 		(stroke
@@ -2217,6 +2171,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 40.64) (xy 233.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da121ae5-5f5f-4c92-b3db-2c9ef8264db4")
+	)
+	(wire
+		(pts
 			(xy 64.77 38.1) (xy 69.85 38.1)
 		)
 		(stroke
@@ -2224,6 +2188,16 @@
 			(type default)
 		)
 		(uuid "da5695ee-f9ba-44b0-8c22-e8c5ea604bac")
+	)
+	(wire
+		(pts
+			(xy 214.63 40.64) (xy 228.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de87c39e-8913-4530-a1de-09264860699e")
 	)
 	(wire
 		(pts
@@ -2264,6 +2238,16 @@
 			(type default)
 		)
 		(uuid "f1d6ac5a-dd5f-4266-933c-2f5f8570e10b")
+	)
+	(wire
+		(pts
+			(xy 228.6 40.64) (xy 228.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31e879e-3b0d-4b47-ab0c-3a878343abf5")
 	)
 	(wire
 		(pts
@@ -2487,6 +2471,28 @@
 			)
 		)
 	)
+	(global_label "COIL_DRIVER_EN"
+		(shape output)
+		(at 218.44 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "817dc8ba-2b72-4adc-b93d-d38f83967177")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.7257 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COIL_N"
 		(shape output)
 		(at 256.54 138.43 0)
@@ -2550,7 +2556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:Conn_Coaxial")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 40.64 73.66 0)
 		(mirror y)
 		(unit 1)
@@ -2619,7 +2625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 72.39 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2646,7 +2652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SolarPanels:Antenna Mount"
+		(property "Footprint" "Argus-Miscellaneous:Antenna Mount"
 			(at 72.39 38.1 0)
 			(effects
 				(font
@@ -2686,7 +2692,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 205.74 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2820,7 +2826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 143.51 38.1 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2845,7 +2851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 143.51 38.1 0)
 			(effects
 				(font
@@ -2885,7 +2891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:Conn_Coaxial")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 35.56 27.94 0)
 		(mirror y)
 		(unit 1)
@@ -2954,7 +2960,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 143.51 48.26 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2979,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 143.51 48.26 0)
 			(effects
 				(font
@@ -3149,7 +3155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 180.34 58.42 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3174,7 +3180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -3214,7 +3220,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:Antenna")
+		(lib_id "Argus-Passives:Antenna")
 		(at 57.15 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3240,7 +3246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SolarPanels:ANT_CGGBP.18.4.A.02_TAL"
+		(property "Footprint" "Argus-Miscellaneous:ANT_CGGBP.18.4.A.02_TAL"
 			(at 57.15 66.04 0)
 			(effects
 				(font
@@ -3353,7 +3359,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 143.51 27.94 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3378,7 +3384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 143.51 27.94 0)
 			(effects
 				(font
@@ -3418,7 +3424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 252.73 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3487,7 +3493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 72.39 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3514,7 +3520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SolarPanels:Antenna Mount"
+		(property "Footprint" "Argus-Miscellaneous:Antenna Mount"
 			(at 72.39 27.94 0)
 			(effects
 				(font
@@ -3554,7 +3560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 143.51 58.42 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3579,7 +3585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 143.51 58.42 0)
 			(effects
 				(font
@@ -3619,7 +3625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 205.74 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3755,7 +3761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:R_Small")
+		(lib_id "Device:R_Small")
 		(at 252.73 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3824,7 +3830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:ATB2012")
+		(lib_id "Argus-Passives:ATB2012")
 		(at 59.69 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3848,7 +3854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:ATB2012"
+		(property "Footprint" "Argus-Passives:ATB2012"
 			(at 59.69 40.64 0)
 			(effects
 				(font
@@ -3897,7 +3903,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:Conn_01x10_MountingPin")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
 		(at 209.55 40.64 0)
 		(mirror y)
 		(unit 1)
@@ -3992,7 +3998,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 180.34 48.26 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4017,7 +4023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 180.34 48.26 0)
 			(effects
 				(font
@@ -4057,7 +4063,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 180.34 27.94 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4082,7 +4088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -4187,7 +4193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SolarPanels:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 180.34 38.1 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4212,7 +4218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 180.34 38.1 0)
 			(effects
 				(font
