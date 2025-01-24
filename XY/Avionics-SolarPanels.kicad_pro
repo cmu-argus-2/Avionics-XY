@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.35,
-          "width": 1.225
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -127,10 +127,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.508,
         "min_text_thickness": 0.1016,
-        "min_through_hole_diameter": 0.254,
+        "min_through_hole_diameter": 0.3048,
         "min_track_width": 0.2032,
-        "min_via_annular_width": 0.127,
-        "min_via_diameter": 0.508,
+        "min_via_annular_width": 0.1524,
+        "min_via_diameter": 0.6096,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -461,7 +461,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.2032,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
         "wire_width": 6
@@ -482,7 +482,7 @@
       "plot": "../../Gerbers/SolarPanels/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Avionics-SolarPanels.step",
+      "step": "../Board Models/Avionics-SolarPanels.step",
       "svg": "",
       "vrml": ""
     },
@@ -540,95 +540,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DIS",
-          "name": "DIS",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DNI",
-          "name": "DNI",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DPN",
-          "name": "DPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Flight",
-          "name": "Flight",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFR",
-          "name": "MFR",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfr. #",
-          "name": "Mfr. #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Order",
-          "name": "Order",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Proto",
-          "name": "Proto",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -677,68 +593,36 @@
       "Root"
     ],
     [
-      "6c74510c-fc2f-4690-9a5b-9f1baf296eee",
-      "Charge OR-ing"
-    ],
-    [
-      "16f90485-8271-472f-a87a-9c27ffab6e8f",
-      "Charge OR-ing1"
-    ],
-    [
-      "b4f3b5ea-3783-47e9-83c1-86877692286f",
-      "Charge OR-ing2"
-    ],
-    [
-      "4e3e35be-185d-45f8-8e31-9bc7a632d527",
+      "8f5fe88e-066c-485c-b28f-c3b6b15eba35",
       "MPPT"
     ],
     [
-      "9b8f914f-a28e-4852-9908-5bd9180ffa1b",
+      "6cd1064e-7dd6-462b-a2c6-27b106c778ec",
       "MPPT1"
     ],
     [
-      "91163359-5a73-44f7-b3d7-34155e842a18",
+      "629fa4b5-76ce-49dc-8133-549211ff302e",
       "MPPT2"
     ],
     [
-      "757bbe31-359d-4282-a8be-b82658fcdbcd",
-      "Coil Driver"
+      "05f8b2bd-a309-4aae-8de3-0566bfd3a2c6",
+      "I2C Devices"
     ],
     [
-      "4bafff54-f633-4da8-a635-19b5cf441fe5",
-      "I2C Single Protection"
+      "e7b397e6-cf2a-4087-9aa2-8fea97a86f25",
+      "Bus Protection"
     ],
     [
-      "82ce4936-26b6-4ef6-942c-821d42575ca3",
-      "I2C Single Protection1"
+      "65df5df0-194e-419e-ae78-57999f0e6884",
+      "Charge OR-ing"
     ],
     [
-      "11f70c33-4cbb-4233-8e61-18a8fe174f05",
-      "Light Sensor"
+      "3855bffa-6f88-453d-a268-72ee6edf624f",
+      "Charge OR-ing1"
     ],
     [
-      "e7e939ee-570b-4630-8c1c-6ded6f4f4534",
-      "I2C Single Protection2"
-    ],
-    [
-      "ac2963a4-7bc7-474c-9155-6a85b25d038f",
-      "I2C Single Protection3"
-    ],
-    [
-      "bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66",
-      "Solar Charger"
-    ],
-    [
-      "2f1bddd8-08e8-4279-a690-b5237fc43482",
-      "I2C Single Protection4"
-    ],
-    [
-      "281d608c-0adc-47e2-a0e6-d9b27e3edbd5",
-      "Interfaces"
-    ],
-    [
-      "ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8",
-      "I2C Single Protection5"
+      "02b1b3dd-6e78-48a0-b873-04e1640b3a54",
+      "Charge OR-ing2"
     ]
   ],
   "text_variables": {}
