@@ -1827,7 +1827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0800931a-bc83-4d06-805e-979bf040678a")
-		(property "Reference" "C36"
+		(property "Reference" "C22"
 			(at 156.845 61.468 90)
 			(effects
 				(font
@@ -1906,7 +1906,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C36")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -1921,7 +1921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09d58aef-63fe-4349-9b17-6690eb5969d9")
-		(property "Reference" "R75"
+		(property "Reference" "R59"
 			(at 130.556 115.824 0)
 			(effects
 				(font
@@ -1991,7 +1991,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "R75")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -2007,7 +2007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "120f9db8-3c41-4137-89f0-8053140a7852")
-		(property "Reference" "R76"
+		(property "Reference" "R60"
 			(at 143.002 115.824 0)
 			(effects
 				(font
@@ -2077,7 +2077,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "R76")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d783f99-042f-4b7a-b7a3-e6f110c1af8c")
-		(property "Reference" "C40"
+		(property "Reference" "C26"
 			(at 216.662 90.424 0)
 			(effects
 				(font
@@ -2173,7 +2173,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C40")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2188,7 +2188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "389f8a84-1e68-4073-a30b-add1f2b2e76b")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 168.91 99.314 0)
 			(effects
 				(font
@@ -2297,7 +2297,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2312,7 +2312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d124db1-db3f-4df5-b1b7-63d1d08e5c8c")
-		(property "Reference" "C23"
+		(property "Reference" "C21"
 			(at 107.315 92.71 0)
 			(effects
 				(font
@@ -2393,7 +2393,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2408,7 +2408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6aac0f26-f9d5-4254-a52e-d862005f10e5")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 96.52 92.71 0)
 			(effects
 				(font
@@ -2489,7 +2489,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2504,7 +2504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c630a8d-3b7c-40e7-bc70-2c48affba7e9")
-		(property "Reference" "R103"
+		(property "Reference" "R61"
 			(at 199.39 91.44 90)
 			(effects
 				(font
@@ -2574,7 +2574,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "R103")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -2589,7 +2589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75d9cb3e-ea81-4e27-a9a1-c363df52dada")
-		(property "Reference" "C20"
+		(property "Reference" "C18"
 			(at 76.2 92.71 0)
 			(effects
 				(font
@@ -2670,7 +2670,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C20")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2685,7 +2685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e4b16c8-0a95-4398-8ebd-d5ee0849ae39")
-		(property "Reference" "R74"
+		(property "Reference" "R58"
 			(at 124.46 103.124 90)
 			(effects
 				(font
@@ -2755,7 +2755,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "R74")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -2770,7 +2770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5e74301-04d0-4810-bf28-072757ece5ac")
-		(property "Reference" "C38"
+		(property "Reference" "C24"
 			(at 201.295 115.57 0)
 			(effects
 				(font
@@ -2851,7 +2851,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C38")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2951,7 +2951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d36b466e-4259-41e5-b594-5cff437642d5")
-		(property "Reference" "C39"
+		(property "Reference" "C25"
 			(at 207.772 90.424 0)
 			(effects
 				(font
@@ -3032,7 +3032,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C39")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3047,7 +3047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5d7c2ff-57c2-40a5-9d05-4e08520869f9")
-		(property "Reference" "C37"
+		(property "Reference" "C23"
 			(at 180.975 61.468 90)
 			(effects
 				(font
@@ -3126,7 +3126,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C37")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3141,7 +3141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1ddaf15-0a92-41cb-8231-9a946ae2ce79")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -3222,7 +3222,7 @@
 		(instances
 			(project "Z+"
 				(path "/977a45af-b6d4-4b54-8e70-e74e2c44e8e7/3495d2a7-7425-4e27-a34a-beb5018fad2a/da1acfbe-9fa7-42e1-87e1-6085a640b36c"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
