@@ -461,9 +461,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
-        "via_diameter": 0.6096,
-        "via_drill": 0.3048,
+        "track_width": 0.254,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -743,6 +743,10 @@
     [
       "2db1c754-21e1-4990-ad9c-e777042c4939",
       "I2C Single Protection12"
+    ],
+    [
+      "b6bfee39-d8ca-44aa-81ae-9b58f0cb7312",
+      "Interfaces"
     ]
   ],
   "text_variables": {}
