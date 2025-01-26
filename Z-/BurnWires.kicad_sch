@@ -407,6 +407,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Relay:IM02"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -934,137 +1079,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SP:Device_Jumper"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Device_Jumper"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "solarpanels:Burn-Wire-Rotated"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Device_Jumper_0_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5146 1.27)
-					(mid 0.0127 2.5097)
-					(end -2.4892 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 4.191)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 4.191)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1798,6 +1812,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 128.27) (xy 266.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1629d02f-8cfe-4a8f-a9a3-cf34c81719b8")
+	)
+	(wire
+		(pts
 			(xy 52.07 78.74) (xy 52.07 73.66)
 		)
 		(stroke
@@ -1815,16 +1839,6 @@
 			(type default)
 		)
 		(uuid "1f82af05-29b9-4eb0-8620-1ef74edfd57f")
-	)
-	(wire
-		(pts
-			(xy 259.08 99.06) (xy 266.7 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d96345-3f86-4e92-95ba-cc8bc8bea309")
 	)
 	(wire
 		(pts
@@ -1868,6 +1882,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 99.06) (xy 246.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3573b1-ea31-4bd3-a768-22b5d80a7833")
+	)
+	(wire
+		(pts
 			(xy 95.25 54.61) (xy 109.22 54.61)
 		)
 		(stroke
@@ -1908,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 71.12) (xy 222.25 71.12)
+			(xy 212.09 71.12) (xy 224.79 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1935,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "42f25be4-4c72-47b1-80bc-0b34ebe54244")
-	)
-	(wire
-		(pts
-			(xy 259.08 71.12) (xy 266.7 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557b2e87-a3b6-447d-abc3-45b6fb08de03")
 	)
 	(wire
 		(pts
@@ -1978,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 128.27) (xy 222.25 128.27)
+			(xy 212.09 128.27) (xy 224.79 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2018,16 +2032,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 99.06) (xy 243.84 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5c5ac8-ea20-41da-a4bb-d3fec0bff5db")
-	)
-	(wire
-		(pts
 			(xy 278.13 140.97) (xy 278.13 128.27)
 		)
 		(stroke
@@ -2058,6 +2062,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 99.06) (xy 266.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5db92e-4721-497d-a037-404eac01d3bb")
+	)
+	(wire
+		(pts
 			(xy 173.99 81.28) (xy 177.8 81.28)
 		)
 		(stroke
@@ -2068,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 99.06) (xy 222.25 99.06)
+			(xy 212.09 99.06) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2148,16 +2162,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 71.12) (xy 243.84 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b8eff4-fd47-4ad3-aca1-01a6666d4e14")
-	)
-	(wire
-		(pts
 			(xy 52.07 78.74) (xy 77.47 78.74)
 		)
 		(stroke
@@ -2185,6 +2189,16 @@
 			(type default)
 		)
 		(uuid "b8e8d045-21f9-4f41-9047-04a2ddc941de")
+	)
+	(wire
+		(pts
+			(xy 234.95 71.12) (xy 246.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef08b8b-7dc5-437f-a3b3-f7a9f2691955")
 	)
 	(wire
 		(pts
@@ -2228,16 +2242,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 128.27) (xy 266.7 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e56ff7-4343-4cb2-be2b-a106330c3c35")
-	)
-	(wire
-		(pts
 			(xy 85.09 54.61) (xy 95.25 54.61)
 		)
 		(stroke
@@ -2265,6 +2269,16 @@
 			(type default)
 		)
 		(uuid "d3825329-918c-4ecc-b463-71b0ce001d77")
+	)
+	(wire
+		(pts
+			(xy 256.54 71.12) (xy 266.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6647193-139d-40c7-b455-8702ced89a69")
 	)
 	(wire
 		(pts
@@ -2643,7 +2657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SP:Device_Jumper")
+		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 251.46 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2925,7 +2939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SP:Device_Jumper")
+		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 229.87 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3065,7 +3079,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SP:Device_Jumper")
+		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 251.46 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3228,7 +3242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SolarPanels:RELAY8_SMTGUL_TEC"
+		(property "Footprint" "Argus-Miscellaneous:RELAY8_SMTGUL_TEC"
 			(at 87.63 69.85 0)
 			(effects
 				(font
@@ -3797,7 +3811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SP:Device_Jumper")
+		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 229.87 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3883,7 +3897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "PERI_3V3"
 			(at 52.07 50.8 0)
 			(effects
 				(font
@@ -3998,7 +4012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SP:Device_Jumper")
+		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 229.87 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
