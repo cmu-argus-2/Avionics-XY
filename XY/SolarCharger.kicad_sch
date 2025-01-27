@@ -3551,7 +3551,7 @@
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
+		(property "Value" "DFLS130LQ-7"
 			(at 86.36 22.352 0)
 			(effects
 				(font
@@ -4212,7 +4212,7 @@
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
+		(property "Value" "DFLS130LQ-7"
 			(at 73.66 22.352 0)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
+		(property "Value" "DFLS130LQ-7"
 			(at 99.06 22.352 0)
 			(effects
 				(font
@@ -6581,7 +6581,7 @@
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
+		(property "Value" "DFLS130LQ-7"
 			(at 60.96 22.352 0)
 			(effects
 				(font
@@ -6989,7 +6989,7 @@
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
+		(property "Value" "DFLS130LQ-7"
 			(at 111.76 22.352 0)
 			(effects
 				(font
