@@ -4749,7 +4749,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d04f74e6-233d-4a4a-9eb6-4402abccc44d")
+			(uuid "d04f74e6-233d-4a4a-9eb6-4402abccc44e")
 		)
 		(instances
 			(project ""

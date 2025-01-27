@@ -798,64 +798,6 @@
 		)
 	)
 	(sheet
-		(at 107.95 31.75)
-		(size 25.4 5.08)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8f40f9df-da92-4903-ad6f-959c63c81004")
-		(property "Sheetname" "I2C Protection"
-			(at 107.95 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "I2CProtection.kicad_sch"
-			(at 107.95 37.4146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DEVICE" bidirectional
-			(at 133.35 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "75397b35-fcdd-4264-992e-11e44cbc1e57")
-		)
-		(pin "BUS" bidirectional
-			(at 107.95 34.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f46ab2ab-3350-428c-9a51-0819be68021f")
-		)
-		(instances
-			(project "Z-"
-				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 107.95 132.08)
 		(size 25.4 5.08)
 		(fields_autoplaced yes)
