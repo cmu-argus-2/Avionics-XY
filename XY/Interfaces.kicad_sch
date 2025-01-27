@@ -3631,10 +3631,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8488d23-7d80-4a32-bb12-f5b8b50beb1a")
+			(uuid "b8488d23-7d80-4a32-bb12-f5b8b50beb1b")
 		)
 		(pin "2"
-			(uuid "c2f68fec-e940-4593-bbba-e695416b0085")
+			(uuid "c2f68fec-e940-4593-bbba-e695416b0086")
 		)
 		(instances
 			(project ""

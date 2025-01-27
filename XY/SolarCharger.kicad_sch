@@ -1300,12 +1300,6 @@
 		(uuid "1e14158f-f5ac-44f2-a0d4-45f604277029")
 	)
 	(junction
-		(at 198.12 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "234b2e48-9dba-428f-bfbb-2b95c7d0142f")
-	)
-	(junction
 		(at 111.76 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1390,6 +1384,12 @@
 		(uuid "847a8857-af5e-4b51-9954-9744cead5e20")
 	)
 	(junction
+		(at 201.93 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8701773d-ba61-4f6d-bd2c-6dbbdaa135c3")
+	)
+	(junction
 		(at 227.33 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1406,6 +1406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3d6cc79-cb48-4fa4-9bcd-4746a9100aab")
+	)
+	(junction
+		(at 187.96 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab49f2c2-dc7a-41c0-8b08-cac3a082b7c1")
 	)
 	(junction
 		(at 80.01 31.75)
@@ -1444,12 +1450,6 @@
 		(uuid "b9d60cbb-0b9d-47f8-b31f-1b45c51de954")
 	)
 	(junction
-		(at 198.12 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf07a0aa-5125-4c20-8cdd-cfe31aee9059")
-	)
-	(junction
 		(at 67.31 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1466,12 +1466,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0322f43-fbb6-4f6d-bfba-1aa941c94359")
-	)
-	(junction
-		(at 201.93 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2485aee-161a-4777-b31d-8b75f6e078e2")
 	)
 	(junction
 		(at 62.23 80.01)
@@ -1520,6 +1514,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f305fcc6-f678-431a-ac0e-eb667e29b931")
+	)
+	(junction
+		(at 187.96 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f550ea1d-3e16-40ec-9722-6c02e39837e6")
 	)
 	(junction
 		(at 105.41 31.75)
@@ -1737,7 +1737,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 76.2) (xy 198.12 72.39)
+			(xy 187.96 72.39) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1927,6 +1927,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 76.2) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e22d94c-a17a-4be5-9f8c-452018ea8a06")
+	)
+	(wire
+		(pts
 			(xy 114.3 25.4) (xy 118.11 25.4)
 		)
 		(stroke
@@ -1947,16 +1957,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 76.2) (xy 198.12 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41c68fc8-31df-4cbc-b0fc-09e228b3f175")
-	)
-	(wire
-		(pts
 			(xy 111.76 151.13) (xy 111.76 154.94)
 		)
 		(stroke
@@ -1974,6 +1974,16 @@
 			(type default)
 		)
 		(uuid "43793a4e-d17f-4f23-981f-9e3ebac98b5d")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d6a903-bcaf-4d79-849c-cb5bd0200250")
 	)
 	(wire
 		(pts
@@ -2337,6 +2347,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 76.2) (xy 187.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d04d150-6c64-4f44-b429-d9b8f32e826f")
+	)
+	(wire
+		(pts
 			(xy 105.41 151.13) (xy 105.41 154.94)
 		)
 		(stroke
@@ -2394,16 +2414,6 @@
 			(type default)
 		)
 		(uuid "9237bc1e-d3fd-4399-a6ad-81f77d2f794f")
-	)
-	(wire
-		(pts
-			(xy 198.12 86.36) (xy 201.93 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94568a68-618d-4058-b5bd-4b3c3544e056")
 	)
 	(wire
 		(pts
@@ -2717,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 72.39) (xy 198.12 72.39)
+			(xy 193.04 72.39) (xy 187.96 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2877,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 198.12 86.36)
+			(xy 167.64 86.36) (xy 187.96 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2987,6 +2997,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 76.2) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e553bf44-9a18-4ade-ba13-2544b07b7e02")
+	)
+	(wire
+		(pts
 			(xy 67.31 25.4) (xy 71.12 25.4)
 		)
 		(stroke
@@ -3057,13 +3077,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 198.12 86.36)
+			(xy 187.96 83.82) (xy 187.96 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec97107b-aad1-43a8-a822-e18c747e16cb")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd7b30f-1b24-43c8-919b-a9066035878a")
 	)
 	(wire
 		(pts
@@ -3174,16 +3204,6 @@
 			(type default)
 		)
 		(uuid "f705e974-bc52-427f-87f2-8bcedcc0bc54")
-	)
-	(wire
-		(pts
-			(xy 198.12 76.2) (xy 217.17 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f726625f-10ad-493f-8563-e2e1459917f5")
 	)
 	(wire
 		(pts
@@ -3496,7 +3516,7 @@
 	)
 	(global_label "VBATT"
 		(shape bidirectional)
-		(at 203.2 72.39 0)
+		(at 193.04 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,7 +3525,7 @@
 		)
 		(uuid "c94b2581-ff48-4a16-8956-ac142307f030")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2 72.39 0)
+			(at 193.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,6 +3990,74 @@
 			(project "Avionics-SolarPanels"
 				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 207.01 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2089bd-452b-4f73-9fe9-094c51b69323")
+		(property "Reference" "F9"
+			(at 207.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100mA"
+			(at 207.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67c386ce-dff7-4f32-bbcd-a3832c41886b")
+		)
+		(pin "1"
+			(uuid "ab3e59b6-ed24-421c-8838-80bb9eb91222")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66"
+					(reference "F9")
 					(unit 1)
 				)
 			)
@@ -5797,6 +5885,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 195.58 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b8fa89f-9f69-41cf-9974-3a19c9b65563")
+		(property "Reference" "F10"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100mA"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d1cb08d-0afe-42bf-a613-39deb5a87b3d")
+		)
+		(pin "1"
+			(uuid "cc61c013-4bfc-412a-938e-c8e4ed88e83e")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66"
+					(reference "F10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 111.76 165.1 0)
 		(mirror y)
@@ -7019,7 +7175,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 198.12 81.28 0)
+		(at 187.96 81.28 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7028,7 +7184,7 @@
 		(dnp no)
 		(uuid "f1937de9-0185-49df-bb24-afbafdb791ec")
 		(property "Reference" "R124"
-			(at 195.072 80.264 0)
+			(at 184.912 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7192,7 @@
 			)
 		)
 		(property "Value" "?R"
-			(at 195.834 82.296 0)
+			(at 185.674 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7200,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 198.12 81.28 0)
+			(at 187.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 81.28 0)
+			(at 187.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7218,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 198.12 81.28 0)
+			(at 187.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
