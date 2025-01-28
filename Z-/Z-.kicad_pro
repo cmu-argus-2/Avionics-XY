@@ -127,10 +127,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.508,
         "min_text_thickness": 0.1016,
-        "min_through_hole_diameter": 0.3048,
+        "min_through_hole_diameter": 0.254,
         "min_track_width": 0.1524,
-        "min_via_annular_width": 0.1524,
-        "min_via_diameter": 0.6096,
+        "min_via_annular_width": 0.127,
+        "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -465,9 +465,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
-        "via_diameter": 0.6096,
-        "via_drill": 0.3048,
+        "track_width": 0.254,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -673,8 +673,8 @@
       "Bus Protection"
     ],
     [
-      "059f9182-99e9-4f25-a784-63265af76fda",
-      "I2C Protection1"
+      "d119efa3-b135-4bba-9c56-950f3270408f",
+      "I2C Protection9"
     ],
     [
       "e87a29de-7d32-474a-998c-af2c5508d1e2",
@@ -685,28 +685,24 @@
       "I2C Devices"
     ],
     [
-      "2783a837-bd1d-411b-9ce4-91a04db84da5",
-      "I2C Protection2"
+      "88f1e1b8-4941-485e-a6d4-5006a7730914",
+      "I2C Protection8"
     ],
     [
-      "6dfcd408-1b37-44a7-8955-05de5e796972",
-      "I2C Protection3"
+      "9281f7c0-9a64-4e3e-b2c9-a48614573f4b",
+      "I2C Protection10"
     ],
     [
-      "af4051e6-41a0-4d21-81f1-1e21893394bf",
-      "I2C Protection4"
+      "55b3b368-3596-49d6-8da5-acbbc0f1468a",
+      "I2C Protection11"
     ],
     [
-      "a76f69ae-7ee6-4940-928c-ef6e71f497e2",
-      "I2C Protection5"
+      "585aabd0-17ae-47c0-ac10-8a48ba217a25",
+      "I2C Protection12"
     ],
     [
-      "9a53ceb0-98db-4eef-963d-fc204f6c547e",
-      "I2C Protection6"
-    ],
-    [
-      "3231c5d1-2654-4837-8082-98c29fa46639",
-      "I2C Protection7"
+      "6db491f8-b544-40f8-9607-6015fb4640d8",
+      "I2C Protection13"
     ]
   ],
   "text_variables": {}

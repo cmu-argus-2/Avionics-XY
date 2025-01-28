@@ -4,16 +4,127 @@
 	(generator_version "8.0")
 	(uuid "526b46d4-830a-4f36-a51e-a967b89635dd")
 	(paper "A4")
-	(lib_symbols)
-	(wire
-		(pts
-			(xy 97.79 67.31) (xy 107.95 67.31)
+	(lib_symbols
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05852f84-6be2-4344-b1ab-3d6ba5ce62de")
 	)
 	(polyline
 		(pts
@@ -27,13 +138,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 113.03) (xy 107.95 113.03)
+			(xy 133.35 52.07) (xy 143.51 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17558657-203a-4264-bfca-5b6f564ef0c7")
+		(uuid "0b7ff1aa-68b6-4448-ae62-8321a6249913")
+	)
+	(wire
+		(pts
+			(xy 97.79 132.08) (xy 107.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2db17f-da08-41a8-b8c5-fcee4e13756b")
 	)
 	(polyline
 		(pts
@@ -47,23 +168,83 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 134.62) (xy 107.95 134.62)
+			(xy 97.79 52.07) (xy 107.95 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41f7cbbe-4b5b-4eb3-9130-b8c9c3069671")
+		(uuid "1d4eef89-5856-4146-af66-faa326b59288")
 	)
 	(wire
 		(pts
-			(xy 97.79 46.99) (xy 107.95 46.99)
+			(xy 133.35 74.93) (xy 143.51 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4426a9f3-de3c-48cc-9c64-d9184c1dc770")
+		(uuid "211d62a1-65fd-4703-be96-ec54228ef3d2")
+	)
+	(wire
+		(pts
+			(xy 97.79 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35948058-33c1-42f8-8f90-3e4242d2b7f5")
+	)
+	(wire
+		(pts
+			(xy 99.06 110.49) (xy 99.06 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c80164-67d2-47fa-b699-a380386bd40f")
+	)
+	(wire
+		(pts
+			(xy 97.79 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7d793c-2600-48dd-9086-1d53b8316e13")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.9) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f97879b-838f-45f5-bbcd-804b0554b008")
+	)
+	(wire
+		(pts
+			(xy 107.95 48.26) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452122d1-df2b-4f6a-8b8f-954bac6b78bc")
+	)
+	(wire
+		(pts
+			(xy 107.95 128.27) (xy 99.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d65e7ad-e6eb-430a-959d-473960c3ca79")
 	)
 	(wire
 		(pts
@@ -77,16 +258,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 143.51 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6203f624-4fee-46c0-9315-4ea3462ab2be")
-	)
-	(wire
-		(pts
 			(xy 97.79 34.29) (xy 107.95 34.29)
 		)
 		(stroke
@@ -97,23 +268,33 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 80.01) (xy 107.95 80.01)
+			(xy 99.06 30.48) (xy 99.06 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a1c6860-fc4d-449d-8a04-3c0d6dd426fa")
+		(uuid "8509d915-923a-4d38-8890-1fdced2bf3f3")
 	)
 	(wire
 		(pts
-			(xy 97.79 100.33) (xy 107.95 100.33)
+			(xy 99.06 88.9) (xy 99.06 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "814923a8-ced0-42db-a298-b5cff6a444a5")
+		(uuid "86bf3075-f708-41d2-b85d-c593b3248406")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e2c879-5807-45f6-acca-d0f7ece70afd")
 	)
 	(polyline
 		(pts
@@ -127,53 +308,73 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 46.99) (xy 143.51 46.99)
+			(xy 133.35 132.08) (xy 143.51 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fe34d1f-12c5-4a83-869d-6b020dc6f611")
+		(uuid "8ec6a5b9-af59-46e3-9aed-b5046ab3e833")
 	)
 	(wire
 		(pts
-			(xy 133.35 134.62) (xy 143.51 134.62)
+			(xy 107.95 110.49) (xy 99.06 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a79ec661-4dda-41c2-b9ff-70b7278a060e")
+		(uuid "943a2872-10be-4536-b66b-7f3d9d538d4c")
 	)
 	(wire
 		(pts
-			(xy 133.35 80.01) (xy 143.51 80.01)
+			(xy 133.35 114.3) (xy 143.51 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abe161bc-de1d-4ec3-9f56-a6a88a0b9790")
+		(uuid "97b48331-aa93-4b0d-a516-eb57aee7ccc5")
 	)
 	(wire
 		(pts
-			(xy 133.35 147.32) (xy 143.51 147.32)
+			(xy 107.95 71.12) (xy 99.06 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b74f20ef-d596-45a7-8c5e-9a4fd022bc8d")
+		(uuid "bbc05a0d-e11a-4d5d-88d2-7f9b84ac8296")
 	)
 	(wire
 		(pts
-			(xy 133.35 67.31) (xy 143.51 67.31)
+			(xy 97.79 74.93) (xy 107.95 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7b3e0d8-75e3-4552-bb03-4c66b5437961")
+		(uuid "bee9df90-19a0-4c13-a2ca-4ca49627bb17")
+	)
+	(wire
+		(pts
+			(xy 99.06 128.27) (xy 99.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94bbfc8-265b-4847-b82d-8946d5d85d8e")
+	)
+	(wire
+		(pts
+			(xy 107.95 30.48) (xy 99.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bbfe06-2438-4cb0-a954-fbeb8f9e3e0b")
 	)
 	(polyline
 		(pts
@@ -187,23 +388,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 113.03) (xy 143.51 113.03)
+			(xy 99.06 48.26) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0d2f74f-5a79-4bec-9bc6-a1ac73b4c293")
+		(uuid "eb0dc319-b8c6-457e-ba08-3abddb955aee")
 	)
 	(wire
 		(pts
-			(xy 97.79 147.32) (xy 107.95 147.32)
+			(xy 99.06 71.12) (xy 99.06 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbe93ee2-be9c-4569-938e-e947b1a7cc12")
+		(uuid "feb5d209-9b93-4a76-9fb1-4b5de65f5bec")
 	)
 	(text "These novel bus protection circuits\nprevent traditional I2C/SPI failure \nmodes where a single slave failure\ncan disable the entire bus.\n\nLearn more: \nhttps://doi.org/10.36227/techrxiv.15166620\n\nBy default, slave clock and/or data lines \ncan be held low and the Master (SAMD51) \nwill still be able to communicate with the \nremainder of the bus.\n\nThey can individually be bypassed by \nremoving the transistor(s) and soldering\nthe 0ohm jumpers to the right."
 		(exclude_from_sim no)
@@ -229,9 +430,29 @@
 		)
 		(uuid "629c4d4e-08c2-4af8-a9c6-ce1db5a4e67f")
 	)
-	(global_label "SDA_M"
+	(global_label "SDA"
 		(shape bidirectional)
-		(at 143.51 113.03 0)
+		(at 97.79 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d0d78f2-631b-44e5-ae0d-664cdf472905")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_IO"
+		(shape bidirectional)
+		(at 143.51 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -239,9 +460,31 @@
 			)
 			(justify left)
 		)
-		(uuid "0c2f95d3-3306-4383-80ed-4a5a019d8774")
+		(uuid "11bd9ed7-79cf-4644-853d-b406f7b5b9c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.5936 113.03 0)
+			(at 154.0775 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_LS"
+		(shape output)
+		(at 143.51 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37933060-be5a-45e3-a7c7-c04b7d1ab69c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.2685 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,108 +496,20 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 97.79 134.62 180)
+		(at 97.79 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "126cc5e0-6c90-473c-83e5-667eb5f2f0d0")
+		(uuid "555bde35-7ab0-45c0-bae7-6015de8d7d6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 134.62 0)
+			(at 97.79 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA_LS"
-		(shape bidirectional)
-		(at 143.51 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1accc7f1-15b8-4916-9591-bb614a5eadd2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6075 46.9106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL_M"
-		(shape output)
-		(at 143.51 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c05cced-239d-44d3-b1f3-c3021e7dd365")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4218 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL_CPWR"
-		(shape output)
-		(at 143.51 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c5c5d67-48d6-4a03-81c2-e03b112a6a26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.2318 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA_CPWR"
-		(shape bidirectional)
-		(at 143.51 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "503c9286-f227-4ae9-ace8-9fe062a3c6fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.4036 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -379,40 +534,38 @@
 			)
 		)
 	)
-	(global_label "SDA_IO"
+	(global_label "SCL"
 		(shape bidirectional)
-		(at 143.51 80.01 0)
-		(fields_autoplaced yes)
+		(at 97.79 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "808ee0c8-ef7e-4707-af7a-7c1d9c9b0bbe")
+		(uuid "80b079e3-6a6c-4ef9-9877-87b75c2b3057")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.0775 80.01 0)
+			(at 97.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 97.79 113.03 180)
+		(at 97.79 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "840ab06b-86af-4082-8f72-b4290c661f19")
+		(uuid "8afa0626-c35b-4ad1-8121-bfb545ac57b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 113.03 0)
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,18 +574,18 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SDA"
 		(shape bidirectional)
-		(at 97.79 100.33 180)
+		(at 97.79 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9d1a8894-3d94-4f04-bdff-637b996f4234")
+		(uuid "9970b95e-f95a-42df-b36c-0d917955fbd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 100.33 0)
+			(at 97.79 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,18 +616,18 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 97.79 67.31 180)
+	(global_label "SCL_M"
+		(shape output)
+		(at 143.51 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "b37840bd-cc08-4cfd-bd88-86ed10c431e0")
+		(uuid "ba25afeb-1018-4ff9-a260-df51eaf08dab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 67.31 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,38 +636,18 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SDA_M"
 		(shape bidirectional)
-		(at 97.79 147.32 180)
+		(at 143.51 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "cbfca69a-cdcb-4a42-b1fc-eef72cd38fae")
+		(uuid "d99f6bde-0beb-40aa-9fe4-d933c8e35f2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 97.79 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "def10b5b-1b13-41c2-bfd0-97343be20060")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 46.99 0)
+			(at 143.51 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +658,7 @@
 	)
 	(global_label "SCL_IO"
 		(shape output)
-		(at 143.51 67.31 0)
+		(at 143.51 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -533,9 +666,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f79b2e3c-0cdb-4ada-bf03-e5813c257879")
+		(uuid "fb1e55c5-5e75-49b6-a5fc-5714c7273404")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.9057 67.31 0)
+			(at 152.9057 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,18 +678,17 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 97.79 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8ae97bb-23bb-4903-8404-ec9c9f429f0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 80.01 0)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06c6f2ec-3fd2-4b77-aa42-5098f8b7eef2")
+		(property "Reference" "#PWR09"
+			(at 99.06 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,184 +696,381 @@
 				(hide yes)
 			)
 		)
-	)
-	(sheet
-		(at 107.95 44.45)
-		(size 25.4 5.08)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "059f9182-99e9-4f25-a784-63265af76fda")
-		(property "Sheetname" "I2C Protection1"
-			(at 107.95 43.7384 0)
+		(property "Value" "LS_3V3"
+			(at 99.06 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "I2CProtection.kicad_sch"
-			(at 107.95 50.1146 0)
+		(property "Footprint" ""
+			(at 99.06 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "DEVICE" bidirectional
-			(at 133.35 46.99 0)
+		(property "Datasheet" ""
+			(at 99.06 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
-			(uuid "0d9166db-b742-4a28-aeca-0a053d5e3da5")
 		)
-		(pin "BUS" bidirectional
-			(at 107.95 46.99 180)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
-			(uuid "8f52fd20-06e3-4b17-af11-c84543414594")
+		)
+		(pin "1"
+			(uuid "dd121b03-6932-451f-95ec-9cf05dcdbb00")
 		)
 		(instances
 			(project "Z-"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
-					(page "3")
+					(reference "#PWR09")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 107.95 64.77)
-		(size 25.4 5.08)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2783a837-bd1d-411b-9ce4-91a04db84da5")
-		(property "Sheetname" "I2C Protection2"
-			(at 107.95 64.0584 0)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1368f5da-8216-4cdf-9831-796ee8513498")
+		(property "Reference" "#PWR034"
+			(at 99.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2CProtection.kicad_sch"
-			(at 107.95 70.4346 0)
+		(property "Value" "MAIN_3V3"
+			(at 99.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "DEVICE" bidirectional
-			(at 133.35 67.31 0)
+		(property "Footprint" ""
+			(at 99.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
-			(uuid "0deab84a-1139-4458-a680-cd707f129f1d")
 		)
-		(pin "BUS" bidirectional
-			(at 107.95 67.31 180)
+		(property "Datasheet" ""
+			(at 99.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
-			(uuid "07f3baa1-e954-4822-9f95-0a0e3e9ce20d")
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d6f706e-417e-4e06-821d-77e5cd0786ed")
 		)
 		(instances
 			(project "Z-"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
-					(page "6")
+					(reference "#PWR034")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 107.95 144.78)
-		(size 25.4 5.08)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3231c5d1-2654-4837-8082-98c29fa46639")
-		(property "Sheetname" "I2C Protection7"
-			(at 107.95 144.0684 0)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27b1527a-f673-46e8-8c30-d83c57383adc")
+		(property "Reference" "#PWR010"
+			(at 99.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2CProtection.kicad_sch"
-			(at 107.95 150.4446 0)
+		(property "Value" "LS_3V3"
+			(at 99.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "DEVICE" bidirectional
-			(at 133.35 147.32 0)
+		(property "Footprint" ""
+			(at 99.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
-			(uuid "ee65576b-ae53-47f5-8061-8b0cb18194f1")
 		)
-		(pin "BUS" bidirectional
-			(at 107.95 147.32 180)
+		(property "Datasheet" ""
+			(at 99.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
-			(uuid "66dac957-378e-4709-a86c-5d3c4fc64988")
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2c37576-cbb2-4654-85be-c3bab2ab16bc")
 		)
 		(instances
 			(project "Z-"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
-					(page "11")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62afb949-cadb-427a-84e8-4c405575a5c5")
+		(property "Reference" "#PWR044"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MAIN_3V3"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc689de4-4d7b-4f99-a31c-4c68f1722dea")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d3d73f4-e625-4579-9ec1-6d7521bf69d6")
+		(property "Reference" "#PWR029"
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BW_3V3"
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac284ae-5231-4f59-a03e-e0fce9eae2aa")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4464726-36af-484d-9c07-8376480999da")
+		(property "Reference" "#PWR030"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BW_3V3"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ddab110-74d4-4ff3-a6da-919fa752c98d")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
+					(reference "#PWR030")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 107.95 77.47)
-		(size 25.4 5.08)
+		(at 107.95 85.09)
+		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -750,9 +1079,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "6dfcd408-1b37-44a7-8955-05de5e796972")
-		(property "Sheetname" "I2C Protection3"
-			(at 107.95 76.7584 0)
+		(uuid "55b3b368-3596-49d6-8da5-acbbc0f1468a")
+		(property "Sheetname" "I2C Protection11"
+			(at 107.95 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +1090,7 @@
 			)
 		)
 		(property "Sheetfile" "I2CProtection.kicad_sch"
-			(at 107.95 83.1346 0)
+			(at 107.95 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,24 +1099,34 @@
 			)
 		)
 		(pin "DEVICE" bidirectional
-			(at 133.35 80.01 0)
+			(at 133.35 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b501b3f4-1029-4430-9f3c-827f0662f8b6")
+			(uuid "f5ce89ff-74e8-40c7-a642-91007c615815")
 		)
 		(pin "BUS" bidirectional
-			(at 107.95 80.01 180)
+			(at 107.95 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7332c252-32c7-4eb7-946c-01c9b36a8024")
+			(uuid "5a81860d-ea5d-4ddf-98ba-a2da902e6962")
+		)
+		(pin "VDD" bidirectional
+			(at 107.95 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6f4bfec-3059-4d33-98fe-281887acd62b")
 		)
 		(instances
 			(project "Z-"
@@ -798,8 +1137,8 @@
 		)
 	)
 	(sheet
-		(at 107.95 132.08)
-		(size 25.4 5.08)
+		(at 107.95 106.68)
+		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -808,9 +1147,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "9a53ceb0-98db-4eef-963d-fc204f6c547e")
-		(property "Sheetname" "I2C Protection6"
-			(at 107.95 131.3684 0)
+		(uuid "585aabd0-17ae-47c0-ac10-8a48ba217a25")
+		(property "Sheetname" "I2C Protection12"
+			(at 107.95 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,7 +1158,7 @@
 			)
 		)
 		(property "Sheetfile" "I2CProtection.kicad_sch"
-			(at 107.95 137.7446 0)
+			(at 107.95 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,36 +1167,46 @@
 			)
 		)
 		(pin "DEVICE" bidirectional
-			(at 133.35 134.62 0)
+			(at 133.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "578250f9-9ff5-467f-a6df-68125bc5afc6")
+			(uuid "63fbdfb7-db6e-499c-94c7-b7fa49c478f2")
 		)
 		(pin "BUS" bidirectional
-			(at 107.95 134.62 180)
+			(at 107.95 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2764e7ee-47eb-45f0-b6a0-8847db76bbe4")
+			(uuid "263847bc-4926-4fd0-809a-cad9d599643a")
+		)
+		(pin "VDD" bidirectional
+			(at 107.95 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4490b242-aacb-474f-bb67-6651aa7e2182")
 		)
 		(instances
 			(project "Z-"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
-					(page "10")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 107.95 110.49)
-		(size 25.4 5.08)
+		(at 107.95 124.46)
+		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -866,9 +1215,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "a76f69ae-7ee6-4940-928c-ef6e71f497e2")
-		(property "Sheetname" "I2C Protection5"
-			(at 107.95 109.7784 0)
+		(uuid "6db491f8-b544-40f8-9607-6015fb4640d8")
+		(property "Sheetname" "I2C Protection13"
+			(at 107.95 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +1226,7 @@
 			)
 		)
 		(property "Sheetfile" "I2CProtection.kicad_sch"
-			(at 107.95 116.1546 0)
+			(at 107.95 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,24 +1235,34 @@
 			)
 		)
 		(pin "DEVICE" bidirectional
-			(at 133.35 113.03 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ec4179c0-2ae6-48c6-a818-00306ec32b54")
+			(uuid "7406afb9-180b-4d58-b38b-63a218238ef3")
 		)
 		(pin "BUS" bidirectional
-			(at 107.95 113.03 180)
+			(at 107.95 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1e49bc78-c599-489b-9483-8d97049ae166")
+			(uuid "4116fd6a-defc-4cc3-b89b-9bb9eb81e404")
+		)
+		(pin "VDD" bidirectional
+			(at 107.95 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea18dc0b-b37e-449a-a120-966530382e7d")
 		)
 		(instances
 			(project "Z-"
@@ -914,8 +1273,8 @@
 		)
 	)
 	(sheet
-		(at 107.95 97.79)
-		(size 25.4 5.08)
+		(at 107.95 26.67)
+		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -924,9 +1283,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "af4051e6-41a0-4d21-81f1-1e21893394bf")
-		(property "Sheetname" "I2C Protection4"
-			(at 107.95 97.0784 0)
+		(uuid "88f1e1b8-4941-485e-a6d4-5006a7730914")
+		(property "Sheetname" "I2C Protection8"
+			(at 107.95 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +1294,7 @@
 			)
 		)
 		(property "Sheetfile" "I2CProtection.kicad_sch"
-			(at 107.95 103.4546 0)
+			(at 107.95 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,29 +1303,175 @@
 			)
 		)
 		(pin "DEVICE" bidirectional
-			(at 133.35 100.33 0)
+			(at 133.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9cb42124-e335-49a6-9ae4-15f4a7a28d7d")
+			(uuid "9a753a10-d8ba-455d-b218-c7ddf780aa93")
 		)
 		(pin "BUS" bidirectional
-			(at 107.95 100.33 180)
+			(at 107.95 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b3fa1962-ff9e-4a92-aa18-e536004d98ef")
+			(uuid "31eaa566-b90b-425d-92d5-8290343543dd")
+		)
+		(pin "VDD" bidirectional
+			(at 107.95 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d82926f-d966-49f7-ba4e-eae2e893be84")
 		)
 		(instances
 			(project "Z-"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
-					(page "8")
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 67.31)
+		(size 25.4 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9281f7c0-9a64-4e3e-b2c9-a48614573f4b")
+		(property "Sheetname" "I2C Protection10"
+			(at 107.95 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2CProtection.kicad_sch"
+			(at 107.95 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DEVICE" bidirectional
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd400ed3-a799-4d07-a028-7f6bda6e2057")
+		)
+		(pin "BUS" bidirectional
+			(at 107.95 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5d07389-3d0d-47d5-bea7-59937d02f309")
+		)
+		(pin "VDD" bidirectional
+			(at 107.95 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e4c26bf-7882-4cb5-be38-3b09cc681495")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 44.45)
+		(size 25.4 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d119efa3-b135-4bba-9c56-950f3270408f")
+		(property "Sheetname" "I2C Protection9"
+			(at 107.95 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2CProtection.kicad_sch"
+			(at 107.95 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DEVICE" bidirectional
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "28181afc-666c-4df1-b02a-cc7cd9e96b7f")
+		)
+		(pin "BUS" bidirectional
+			(at 107.95 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9008a9d-5173-40f1-beb9-68aecc04723d")
+		)
+		(pin "VDD" bidirectional
+			(at 107.95 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "860e3599-3bad-4276-8a53-7108f87c46a0")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/fc2a0310-ccff-4451-80b6-dedebcf7c558"
+					(page "3")
 				)
 			)
 		)
