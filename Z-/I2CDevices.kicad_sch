@@ -9134,7 +9134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PERI_3V3"
+		(property "Value" "MAIN_3V3"
 			(at 267.97 39.37 0)
 			(effects
 				(font
