@@ -1,0 +1,111 @@
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Aug 14 2024, 05:26:19) [MSC v.1939 64 bit (AMD64)]'
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.5
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.3
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001F629BCCDC0>
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with Q5 as a reference
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'Q5'
+Located on: ['Sun Pyramid', 'I2C Single Protection7']
+With filenames: ['SunPyramid.kicad_sch', 'I2CSingleProtection.kicad_sch']
+With sheet_id:['Sun Pyramid', 'I2C Single Protection7']
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('Q22', ['Sun Pyramid', 'I2C Single Protection10']), ('Q1', ['Sun Pyramid', 'I2C Single Protection3']), ('Q14', ['Solar Charger', 'I2C Single Protection4']), ('Q24', ['Sun Pyramid', 'I2C Single Protection11']), ('Q12', ['Coil Driver', 'I2C Single Protection2']), ('Q3', ['Sun Pyramid', 'I2C Single Protection6']), ('Q18', ['Sun Pyramid', 'I2C Single Protection8']), ('Q5', ['Sun Pyramid', 'I2C Single Protection7']), ('Q20', ['Sun Pyramid', 'I2C Single Protection9']), ('Q16', ['Solar Charger', 'I2C Single Protection5']), ('Q26', ['Sun Pyramid', 'I2C Single Protection12']), ('Q10', ['Coil Driver', 'I2C Single Protection1'])]
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'I2C Single Protection7', file:'I2CSingleProtection.kicad_sch'
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['Coil Driver', 'I2C Single Protection1'], ['Coil Driver', 'I2C Single Protection2'], ['Solar Charger', 'I2C Single Protection4'], ['Solar Charger', 'I2C Single Protection5'], ['Sun Pyramid', 'I2C Single Protection10'], ['Sun Pyramid', 'I2C Single Protection11'], ['Sun Pyramid', 'I2C Single Protection12'], ['Sun Pyramid', 'I2C Single Protection3'], ['Sun Pyramid', 'I2C Single Protection6'], ['Sun Pyramid', 'I2C Single Protection8'], ['Sun Pyramid', 'I2C Single Protection9']]
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['Sun Pyramid', 'I2C Single Protection7']
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1612, 111)
+01-25 17:22:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1173, 111)
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'I2C Single Protection7', file:'I2CSingleProtection.kicad_sch'
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['Coil Driver', 'I2C Single Protection1'], ['Coil Driver', 'I2C Single Protection2'], ['Solar Charger', 'I2C Single Protection4'], ['Solar Charger', 'I2C Single Protection5'], ['Sun Pyramid', 'I2C Single Protection10'], ['Sun Pyramid', 'I2C Single Protection11'], ['Sun Pyramid', 'I2C Single Protection12'], ['Sun Pyramid', 'I2C Single Protection3'], ['Sun Pyramid', 'I2C Single Protection6'], ['Sun Pyramid', 'I2C Single Protection8'], ['Sun Pyramid', 'I2C Single Protection9']]
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['Sun Pyramid', 'I2C Single Protection10']]
+on level: ['Sun Pyramid', 'I2C Single Protection7']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+01-25 17:22:10 root 332:updating GUI message: 'Preparing for replication'
+01-25 17:22:10 root 337:updating GUI with: 0
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+01-25 17:22:10 root 337:updating GUI with: 50
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+01-25 17:22:10 root 337:updating GUI with: 66
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
+01-25 17:22:10 root 332:updating GUI message: 'Replicating footprints'
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 861:Replicating footprints
+01-25 17:22:10 root 337:updating GUI with: 0
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['Sun Pyramid', 'I2C Single Protection10']
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e9c40684-cf82-4ea3-839c-b31018671064
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d6b356f9-b3d1-433d-ba40-43079e6b8858
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0d68ca4a-40a4-453b-b409-349d30b02f3d
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:528e20fa-64ac-432b-a7c6-910616ff96b4
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:2be655aa-ac81-49ac-b0a8-3662302029fb
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:65e58940-1a3d-43d6-81ac-2ac3b716420b
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:52addace-9a14-46e6-856e-b13cd532ffb3
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7afb0c55-c4f1-4294-af33-df95c1683a8d
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a0ee8f21-8bc9-4141-bc54-1549478280a9
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:95f1a559-2345-4904-8742-c54f01b66127
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6e174b3f-8dd3-4c46-ad80-834e8d20b102
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:802982ec-b357-48e5-8bd0-5d3e73af696b
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6d2d279e-3ba3-4ed7-b199-cfba05e111e6
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:de3ad6e5-7fbe-4ef7-8413-ad9114239226
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:704f6856-121f-4024-82b0-5b5f9beeb0e0
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:337e44eb-4ef2-4d6c-b797-87e433181b60
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10c78686-8e04-4f08-adec-2923e15abd47
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6a6595f8-1358-4f9a-b8c5-e750917d5531
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:b096383a-a912-4a1c-a0f9-1caed30339ac
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:36702bbb-d21c-4aa6-bbfb-fc73f97f2ac0
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:715f4e78-a137-469c-a550-259e2315a851
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:56ff787b-490d-4dc5-baf3-a67774373e08
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:1e76bfed-0236-40a6-834a-cb2ecac4d158
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bf7c1034-c5ba-4d4e-9e1d-b54fb024c519
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:5bf13eb2-563b-45bb-bf57-cc25187c0f17
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:77717616-7341-49a0-b88b-714f8434720d
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:12bdbed7-3365-4654-8ceb-f17224873c3d
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b375811f-a041-4e89-98f0-20629e0fc10a
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8f66e54d-f8bf-42c1-8efa-368fb8630201
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f490ad87-41f5-471b-9577-d7de88b41f73
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:59664e64-a573-474a-9e65-f5fa442927d1
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:acf11775-ca0b-4d66-91e2-9f95253f069e
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c2599414-cf94-4980-a6af-45b83d2a55b0
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:870e175c-894b-420d-a4b6-a7cdfaf7a494
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:35c8a8c5-9d29-46f2-b700-e9f81fad6433
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:10049943-e943-4199-8afb-124b0aa58ed9
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:743e5bcd-7393-450c-b354-6ffbb5f84071
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:96247391-68d7-44c9-b14c-88f6eb1917f2
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:cbde9663-da1b-40b5-b541-069df868a15e
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2281ecfa-8dfa-4fae-9122-e4317c80aeaf
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8db55d38-b1ef-414d-8e4b-4d5bf8631fea
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:89b20f3f-db93-4681-a1c3-87beaf677c42
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:d1ed640c-7a8f-403c-9cca-0fef1e91bde3
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:fb241cf8-2a47-47f7-8a9f-cf94028e7861
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ceb713f2-f688-490f-9e71-c9f119692cd4
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:57dce8e3-d18c-41f1-9fcd-03fa7793b79c
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:2ca31a0c-1715-4e57-82ee-4f3a9673031a
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:27dba58b-c3a3-4736-b1c9-2ce022af5e20
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c8da7aa5-34ba-4910-88f9-d6c03330c3c1
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e27af59b-2b41-4ba7-b294-335bdd934b4b
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:3a7d7e41-6525-4e89-81fe-b084d7cd68de
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0ac3bf98-8c49-42d6-89b7-c6f5195a1864
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:fe10ede7-d9b5-4a20-839b-7fa26aee2aba
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3e1d66c1-e0f3-4938-abff-ad578cde4f04
+01-25 17:22:10 root 332:updating GUI message: 'Replicating tracks'
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating tracks
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['Sun Pyramid', 'I2C Single Protection10']
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['Sun Pyramid', 'I2C Single Protection10'] :[('SCL', 'SDA'), ('Net-(Q6A-B1)', 'Net-(Q23A-B1)'), ('Net-(Q5B-G1)', 'Net-(Q22B-G1)'), ('/Sun Pyramid/LS1_SCL', '/Sun Pyramid/LS2_SDA'), ('Net-(Q5A-G2)', 'Net-(Q22A-G2)'), ('GND', 'GND'), ('Net-(Q5A-D1)', 'Net-(Q22A-D1)'), ('/Sun Pyramid/LS1_3V3', '/Sun Pyramid/LS2_3V3')]
+01-25 17:22:10 root 332:updating GUI message: 'Replicating zones'
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1079:Replicating zones
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['Sun Pyramid', 'I2C Single Protection10']
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['Sun Pyramid', 'I2C Single Protection10'] :[('SCL', 'SDA'), ('Net-(Q6A-B1)', 'Net-(Q23A-B1)'), ('Net-(Q5B-G1)', 'Net-(Q22B-G1)'), ('/Sun Pyramid/LS1_SCL', '/Sun Pyramid/LS2_SDA'), ('Net-(Q5A-G2)', 'Net-(Q22A-G2)'), ('GND', 'GND'), ('Net-(Q5A-D1)', 'Net-(Q22A-D1)'), ('/Sun Pyramid/LS1_3V3', '/Sun Pyramid/LS2_3V3')]
+01-25 17:22:10 root 332:updating GUI message: 'Replicating text'
+01-25 17:22:10 root 337:updating GUI with: 0
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1168:Replicating text
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['Sun Pyramid', 'I2C Single Protection10']
+01-25 17:22:10 root 332:updating GUI message: 'Replicating drawings'
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1219:Replicating drawings
+01-25 17:22:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['Sun Pyramid', 'I2C Single Protection10']
+01-25 17:22:11 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
