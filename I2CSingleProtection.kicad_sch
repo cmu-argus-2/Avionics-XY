@@ -1,0 +1,2805 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a648581c-fb86-43b2-8cac-c9824dda789a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Argus-Miscellaneous:NX3008NBKS"
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NX3008NBKS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at -13.97 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+				(at -13.97 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual N-Channel MOSFET - 2NMOS"
+				(at -13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia USA Inc."
+				(at -13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NX3008NBKS"
+				(at -13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NX3008NBKS_1_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.905) (xy -1.016 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NX3008NBKS_2_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.905) (xy -1.016 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MBT2222ADW1T1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MBT2222ADW1T1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN/NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBT2222ADW1T1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBT2222ADW1T1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MBT2222ADW1T1_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 148.59 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0566aa21-3cec-4f6a-91fb-f291bb673b90")
+	)
+	(junction
+		(at 148.59 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c64177c-706e-4e5e-ac6d-6c6e03022409")
+	)
+	(junction
+		(at 148.59 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a202674-b518-4669-889b-b8f048cdf24f")
+	)
+	(junction
+		(at 143.51 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fb7b90b-918a-4c21-b5f0-974a28c703b3")
+	)
+	(junction
+		(at 133.35 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45993bf2-e131-4cd9-9bd7-628644f648e0")
+	)
+	(junction
+		(at 140.97 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68d296fd-cea5-4b23-ac16-35a44d76cb53")
+	)
+	(junction
+		(at 148.59 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78a41487-d008-47f9-9b55-40c000e91bd4")
+	)
+	(junction
+		(at 125.73 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843793ae-e57f-4b37-843e-2bfa96a04f46")
+	)
+	(junction
+		(at 148.59 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c619b7d-d29d-40f3-b66c-82d6a2cca827")
+	)
+	(junction
+		(at 138.43 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af4cb86e-f5d8-4865-9c9e-7d9f89876e67")
+	)
+	(junction
+		(at 143.51 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4614650-7094-4054-ba82-2f0fa815a152")
+	)
+	(wire
+		(pts
+			(xy 134.62 72.39) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00dcc766-747f-4551-8774-d48df29bb9ea")
+	)
+	(wire
+		(pts
+			(xy 140.97 107.95) (xy 140.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bd5278-0a72-411e-a9c9-f03922127157")
+	)
+	(wire
+		(pts
+			(xy 133.35 97.79) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3da8ce-bd58-4705-86d7-1ba7a48ffb68")
+	)
+	(wire
+		(pts
+			(xy 139.7 127) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29defc2e-ba3a-4549-b11e-ef4d62f223f8")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40064412-0d8f-41b7-9b48-a0ec860973b9")
+	)
+	(wire
+		(pts
+			(xy 143.51 57.15) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f353eb8-8761-449b-b600-fe53475dd38c")
+	)
+	(wire
+		(pts
+			(xy 148.59 90.17) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a577e2-35cf-4b54-97d4-fa69b7add728")
+	)
+	(wire
+		(pts
+			(xy 143.51 63.5) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a8dbfe-3967-4e93-ae91-0585a66fda69")
+	)
+	(wire
+		(pts
+			(xy 140.97 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57830738-edb4-4522-99ba-0ba7707c05fb")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594ee298-02ff-4ab3-b564-1b5a0b7eda5d")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cacd6b8-3559-48db-9f5b-9391719ed78a")
+	)
+	(wire
+		(pts
+			(xy 148.59 57.15) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d49f9e4-f8f2-4394-8721-90dcf1d62768")
+	)
+	(wire
+		(pts
+			(xy 134.62 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef98368-b06f-496a-a554-dfcee7405af5")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7426df58-8536-4113-871d-78e063b72e80")
+	)
+	(wire
+		(pts
+			(xy 133.35 90.17) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78dc7878-d85a-409b-958c-0affaa852431")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5f5d51-5036-45c6-8a52-c4faca014a2d")
+	)
+	(wire
+		(pts
+			(xy 125.73 110.49) (xy 140.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8346cb36-bd1a-431a-a37a-5e56d048b86a")
+	)
+	(wire
+		(pts
+			(xy 148.59 90.17) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95999203-a453-47a4-84bf-ff0091db510e")
+	)
+	(wire
+		(pts
+			(xy 143.51 52.07) (xy 143.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5a4334-15f2-4028-828c-b5545bbd9df6")
+	)
+	(wire
+		(pts
+			(xy 132.08 127) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4d0a62-572f-4f1c-bcfd-6fc63f9a9ffb")
+	)
+	(wire
+		(pts
+			(xy 148.59 99.06) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a066db-8aff-45c0-a83d-42b876742eff")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c0c1e2-ef93-4460-b3fc-688d929b8787")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 133.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6ef969-3525-43b9-953c-7deebcba5657")
+	)
+	(wire
+		(pts
+			(xy 125.73 64.77) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cb9652-9ee5-40d4-a158-173aef07e9ca")
+	)
+	(wire
+		(pts
+			(xy 125.73 102.87) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7e438b-c5f4-41f9-85dc-408ba00a19c4")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80f5099-c95d-4b33-8777-b51a2abf0922")
+	)
+	(wire
+		(pts
+			(xy 151.13 81.28) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf1c05e-a002-49cd-b3fc-c09f1d72ad05")
+	)
+	(wire
+		(pts
+			(xy 148.59 57.15) (xy 143.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df651f86-1c8e-492d-a6bf-c9da6d014087")
+	)
+	(hierarchical_label "VDD"
+		(shape bidirectional)
+		(at 143.51 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e4f37ba-55c9-4710-81e7-499380f6bc0f")
+	)
+	(hierarchical_label "VDD"
+		(shape bidirectional)
+		(at 133.35 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43a671a9-8f53-4c4e-9d75-daf31c783c78")
+	)
+	(hierarchical_label "DEVICE"
+		(shape bidirectional)
+		(at 142.24 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5abb280c-2370-4165-bdec-cce51879264b")
+	)
+	(hierarchical_label "BUS"
+		(shape bidirectional)
+		(at 134.62 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da5dbf70-7227-4528-9116-0824af005572")
+	)
+	(hierarchical_label "DEVICE"
+		(shape bidirectional)
+		(at 151.13 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db015988-7323-46f5-bd5e-7757474a15ec")
+	)
+	(hierarchical_label "BUS"
+		(shape bidirectional)
+		(at 132.08 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee66473b-d7b5-41b6-8cf9-11a6e73392f1")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 148.59 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dd710cb-4c0a-4da0-a080-80da0d1f3478")
+		(property "Reference" "R123"
+			(at 150.3172 95.3516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200K"
+			(at 150.3172 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6423124-bc9b-4c79-a181-3f57302770b5")
+		)
+		(pin "2"
+			(uuid "54c5c5d8-0e79-40a9-a83a-33de9a946154")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "R123")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "R117")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "R94")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "R131")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "R137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20c6ca08-b953-43e9-a8ce-dd3e672f7ca6")
+		(property "Reference" "R119"
+			(at 134.874 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 134.747 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aadef8a5-bbdf-452a-bca3-261b96e5a4da")
+		)
+		(pin "2"
+			(uuid "321c7df1-bd24-4c4f-997e-8804a52a9b23")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "R119")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "R107")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "R85")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "R97")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "R127")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "R133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38682dbd-1890-4db5-9679-398e89e964b0")
+		(property "Reference" "C38"
+			(at 151.511 105.5116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 151.511 107.823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 149.5552 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF +-10% 50V X7R"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad327315-2636-4eb4-996a-7bd63487a09d")
+		)
+		(pin "2"
+			(uuid "a82ad05f-ca55-408d-b638-149039f913cb")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 132.08 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48286797-0430-47b8-a578-101c842da1ce")
+		(property "Reference" "R118"
+			(at 132.08 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 132.08 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac562b28-853b-4c6e-880b-7420543e0530")
+		)
+		(pin "2"
+			(uuid "f0458d1b-df2c-45db-a2e5-49138b740569")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "R118")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "R106")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "R96")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "R126")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "R132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Argus-Miscellaneous:NX3008NBKS")
+		(at 127 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54acd83c-f954-43bc-8041-318ac890e433")
+		(property "Reference" "Q21"
+			(at 122.936 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NX3008NBKS"
+			(at 138.938 109.093 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 140.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NX3008NBKS"
+			(at 140.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "884a29f5-302c-4320-9384-46dc1d2e755c")
+		)
+		(pin "2"
+			(uuid "0aa4e5ff-27c7-41aa-af4a-26b0e55c8221")
+		)
+		(pin "6"
+			(uuid "84215fd4-4544-4771-8fdc-640e7b8ffb0c")
+		)
+		(pin "3"
+			(uuid "7c75977a-6f27-495d-898d-dfd4124863ef")
+		)
+		(pin "4"
+			(uuid "a2a3c05b-9c88-450f-a754-dc5916410105")
+		)
+		(pin "5"
+			(uuid "a3ea0c4f-c620-4e78-82ab-7a9d5579af42")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "Q21")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "Q19")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "Q17")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "Q23")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MBT2222ADW1T1")
+		(at 143.51 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d7ee08-66e0-4eeb-ad6f-3959fd2ddd13")
+		(property "Reference" "Q22"
+			(at 143.51 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBT2222ADW1T1"
+			(at 143.51 95.9104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN BJT - 2NPN"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" "MBT2222ADW1T1G"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ON Semiconductor"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
+			(at 146.05 93.6244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "MBT2222ADW1T1G"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "312e6d7b-4b4e-43f6-bf71-2bd7a672cf30")
+		)
+		(pin "2"
+			(uuid "54709170-6cf2-4ed1-ac5d-e40c9df3e415")
+		)
+		(pin "6"
+			(uuid "5469d6e7-d18d-4703-98ef-6cb8e9c25a63")
+		)
+		(pin "3"
+			(uuid "b8b7f02e-ce93-4e08-8d28-28a17b3a311d")
+		)
+		(pin "4"
+			(uuid "42efdd20-c5b5-419d-abeb-42ae8ea35527")
+		)
+		(pin "5"
+			(uuid "4d7f51b4-f72e-4092-b418-685577376ce0")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "Q22")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "Q20")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "Q18")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "Q24")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MBT2222ADW1T1")
+		(at 143.51 69.85 90)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b5687b2-1393-4b30-a6eb-148ff19a3ff9")
+		(property "Reference" "Q22"
+			(at 143.51 75.819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBT2222ADW1T1"
+			(at 134.493 66.929 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN BJT - 2NPN"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" "MBT2222ADW1T1G"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ON Semiconductor"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
+			(at 140.97 75.819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "MBT2222ADW1T1G"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d1d309-3da4-464e-b791-287827e30147")
+		)
+		(pin "2"
+			(uuid "62b654f2-7f82-4d6d-8a5f-a2a52c4393d4")
+		)
+		(pin "6"
+			(uuid "9cb111de-b9d2-4e63-a44d-7cf0668587ed")
+		)
+		(pin "3"
+			(uuid "435ad06a-dcc9-4cb2-a7e3-e765f3ab9d12")
+		)
+		(pin "4"
+			(uuid "df86d6b9-58a5-4c06-9dcc-baaaf9f26909")
+		)
+		(pin "5"
+			(uuid "47387c8b-8cd3-4e5c-84d3-3ac37f9eaff1")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "Q22")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "Q20")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "Q8")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "Q18")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "Q24")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "Q26")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bf17c90-9757-45d6-a56a-1e1ecfcc679e")
+		(property "Reference" "#PWR055"
+			(at 148.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6332ee-cb9e-4c23-b33a-e84cfbc1da3a")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Argus-Miscellaneous:NX3008NBKS")
+		(at 142.24 102.87 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a04dd8a-ca2b-4b24-bb31-06c539af1918")
+		(property "Reference" "Q21"
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NX3008NBKS"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 156.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+			(at 156.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NX3008NBKS"
+			(at 156.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf7a6125-f967-458c-87e9-b2e58d8017e7")
+		)
+		(pin "2"
+			(uuid "bb15bfc4-fab1-4a64-adaa-d9a1059da80e")
+		)
+		(pin "6"
+			(uuid "d1b3c9f2-a312-4d08-bd8a-4f506c4df203")
+		)
+		(pin "3"
+			(uuid "c5b6cf01-1d1c-4150-a29f-dc3f2099a86f")
+		)
+		(pin "4"
+			(uuid "c8778910-e109-4688-9ea4-e809b434a7b7")
+		)
+		(pin "5"
+			(uuid "7aaf2666-8ec2-40f4-aae0-091927361dda")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "Q21")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "Q19")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "Q7")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "Q17")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "Q23")
+					(unit 2)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "Q25")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 148.59 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d584760c-4ffe-4249-99a0-8ca96c375174")
+		(property "Reference" "R122"
+			(at 149.86 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 149.86 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd228735-fba6-404d-bbc5-62ea5cd06a11")
+		)
+		(pin "2"
+			(uuid "c009135a-c7b1-40fb-b85b-0555fa64d006")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "R122")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "R116")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "R87")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "R100")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "R130")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "R136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7b7dc01-6174-42a3-a68d-a68168c62832")
+		(property "Reference" "R121"
+			(at 142.24 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 142.24 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52f3b806-731b-4474-a596-2f60b7c1fe2d")
+		)
+		(pin "2"
+			(uuid "219919c7-0b12-4dcd-ba54-5e7f6cbed6fa")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "R121")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "R115")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "R86")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "R99")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "R129")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "R135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 137.16 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5cb2fa5-f616-47fd-b5a1-78c0fc4a0c7a")
+		(property "Reference" "R120"
+			(at 137.16 124.841 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNI (0R)"
+			(at 137.16 129.413 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 137.16 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64660caf-cfe8-45ab-9f24-c2d3c88c2f9f")
+		)
+		(pin "2"
+			(uuid "3c893f90-043d-422d-8e59-38fa5da89dbe")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/ac2963a4-7bc7-474c-9155-6a85b25d038f"
+					(reference "R120")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05/e7e939ee-570b-4630-8c1c-6ded6f4f4534"
+					(reference "R114")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/4bafff54-f633-4da8-a635-19b5cf441fe5"
+					(reference "R95")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/757bbe31-359d-4282-a8be-b82658fcdbcd/82ce4936-26b6-4ef6-942c-821d42575ca3"
+					(reference "R98")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2f1bddd8-08e8-4279-a690-b5237fc43482"
+					(reference "R128")
+					(unit 1)
+				)
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8"
+					(reference "R134")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
