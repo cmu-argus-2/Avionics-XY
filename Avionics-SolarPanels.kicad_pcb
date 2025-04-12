@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6)
+		(thickness 0.8)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -53,7 +53,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 0.44)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -1486,6 +1486,7 @@
 		(property "Reference" "H1"
 			(at 0 4.016799 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b420480b-c3b6-453c-9aa7-f80b9c98c38c")
 			(effects
 				(font
@@ -1586,7 +1587,12 @@
 			(at 0 0)
 			(size 3.6 3.6)
 			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
@@ -2072,6 +2078,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6cf76e11-deed-4bcf-a7db-366f2d7b5751")
 			(effects
 				(font
@@ -2172,7 +2179,12 @@
 			(at 0 0)
 			(size 3.6 3.6)
 			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
@@ -3352,6 +3364,7 @@
 		(property "Reference" "H3"
 			(at 0 -3.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8fea52e1-a925-440f-b7fe-13adaa782a41")
 			(effects
 				(font
@@ -3452,7 +3465,12 @@
 			(at 0 0)
 			(size 3.6 3.6)
 			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
@@ -4262,6 +4280,7 @@
 		(property "Reference" "H4"
 			(at 0 4.2672 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "df808d77-5b95-4310-b005-7bdd340c97ac")
 			(effects
 				(font
@@ -4362,7 +4381,12 @@
 			(at 0 0)
 			(size 3.6 3.6)
 			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
@@ -7355,7 +7379,7 @@
 			)
 			(uuid "4a771a68-27db-4a2f-becc-b42907cd4e88")
 		)
-		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/LPS4018-103MRC.stp"
+		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/LPS4018-103MRC.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16573,7 +16597,7 @@
 			)
 			(uuid "85a1c192-c961-4fcc-a062-4b32bba7b4e8")
 		)
-		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/LPS4018-103MRC.stp"
+		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/LPS4018-103MRC.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17424,7 +17448,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "709b2ff8-c8ff-4e4a-ab76-1ce3d2fa045e")
 		)
-		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
+		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
 			(offset
 				(xyz 3.75 0 0)
 			)
@@ -23239,7 +23263,12 @@
 			(at 0 0 180)
 			(size 3.4 3.4)
 			(drill 3)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
@@ -24666,7 +24695,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "bb4d4252-f061-4206-84c4-f1231ba4ac6e")
 		)
-		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
+		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
 			(offset
 				(xyz 3.75 0 0)
 			)
@@ -27241,7 +27270,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "6259d8c2-44ea-45e0-8549-0c2476192baa")
 		)
-		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
+		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
 			(offset
 				(xyz 3.75 0 0)
 			)
@@ -29100,7 +29129,7 @@
 			(pintype "power_out")
 			(uuid "474e2801-690a-4745-b991-541218fc2fa5")
 		)
-		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/DRV8235.stp"
+		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/DRV8235.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33699,7 +33728,7 @@
 			)
 			(uuid "3567ee90-1f85-4224-a2fe-b0011e116447")
 		)
-		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/LPS4018-103MRC.stp"
+		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/LPS4018-103MRC.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38904,7 +38933,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "c297ff52-40ba-4a8c-9edc-9bb773a50d80")
 		)
-		(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
+		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
 			(offset
 				(xyz 3.75 0 0)
 			)
@@ -49120,7 +49149,12 @@
 			(at 0 0 180)
 			(size 3.4 3.4)
 			(drill 3)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
@@ -52541,16 +52575,6 @@
 		(layer "B.SilkS")
 		(uuid "41b3d3f5-cd30-4705-8c1b-580eb5348b39")
 	)
-	(gr_line
-		(start 195.58 113.792)
-		(end 195.834 114.046)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "47dcbc75-dee6-4cdf-a717-7c85e1ca1146")
-	)
 	(gr_arc
 		(start 125.7 141.42198)
 		(mid 129.674324 144.03848)
@@ -52571,16 +52595,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "4e3c2ed2-f71b-4a7b-af9f-9f15ae100e0c")
-	)
-	(gr_line
-		(start 195.58 113.792)
-		(end 195.834 113.538)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "5057046e-5dce-43ac-9b3d-b32cfe5d2b62")
 	)
 	(gr_line
 		(start 134.7597 128.143)
@@ -52716,16 +52730,6 @@
 		(uuid "c7086825-7872-4093-8664-bc370adb8f3d")
 	)
 	(gr_line
-		(start 195.834 113.538)
-		(end 195.58 113.792)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "c805726b-4d99-4693-a8d8-08bcd168528e")
-	)
-	(gr_line
 		(start 172.7 148.3897)
 		(end 172.6946 151.2824)
 		(stroke
@@ -52734,16 +52738,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "cb55245f-7cf3-4802-8150-588c901a0d8a")
-	)
-	(gr_line
-		(start 198.12 113.792)
-		(end 195.58 113.792)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "cbcd66ad-412d-41f2-8ea5-3553f09c4d87")
 	)
 	(gr_line
 		(start 124.3203 128.778)
@@ -53692,7 +53686,7 @@
 			(xy 112.39985 52.400101) (xy 112.39985 152.400101)
 		)
 		(height 6.73585)
-		(gr_text "3937.0079 mils"
+		(gr_text "100.0000 mm"
 			(at 104.514 102.400101 90)
 			(layer "Dwgs.User")
 			(uuid "0b6e2c1f-5073-4141-8db7-a6f26f8970af")
@@ -53725,7 +53719,7 @@
 			(xy 193.40015 151.400059) (xy 111.39985 151.400101)
 		)
 		(height -6.902192)
-		(gr_text "3228.3583 mils"
+		(gr_text "82.0003 mm"
 			(at 152.400003 157.152272 2.934651141e-05)
 			(layer "Dwgs.User")
 			(uuid "eaf25628-0031-4cc8-a6ba-6c94ed7d095b")
