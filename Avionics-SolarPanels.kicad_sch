@@ -1,14 +1,26 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "92e58b76-9357-4452-b231-18fffdf58e73")
 	(paper "A4")
+	(title_block
+		(title "Argus XY Solar Panel")
+		(date "2025-04-20")
+		(rev "v3.1")
+		(company "Carnegie Mellon University")
+		(comment 1 "N. Khera")
+		(comment 2 "V. Rajesh")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -106,12 +118,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -202,35 +219,36 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
-		(at 181.61 83.82)
+		(at 182.88 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d01f1fb-569e-4219-aab8-a93d136e8af9")
 	)
 	(junction
-		(at 181.61 73.66)
+		(at 182.88 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39496b86-3f28-4fae-99be-9080803a00f6")
 	)
 	(junction
-		(at 181.61 63.5)
+		(at 182.88 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f00029d-3ff2-42fb-b7a0-b323e1936918")
 	)
 	(junction
-		(at 181.61 129.54)
+		(at 182.88 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5cae178-0c3c-4be1-9e9c-87308dba609e")
 	)
 	(wire
 		(pts
-			(xy 172.72 83.82) (xy 181.61 83.82)
+			(xy 173.99 91.44) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -240,7 +258,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 119.38) (xy 172.72 119.38)
+			(xy 182.88 127) (xy 173.99 127)
 		)
 		(stroke
 			(width 0)
@@ -250,7 +268,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 129.54) (xy 181.61 129.54)
+			(xy 173.99 137.16) (xy 182.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -260,7 +278,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 134.62) (xy 181.61 129.54)
+			(xy 182.88 142.24) (xy 182.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -270,7 +288,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 73.66) (xy 181.61 73.66)
+			(xy 173.99 81.28) (xy 182.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -280,7 +298,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 73.66) (xy 181.61 63.5)
+			(xy 182.88 81.28) (xy 182.88 71.12)
 		)
 		(stroke
 			(width 0)
@@ -290,7 +308,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 181.61 63.5)
+			(xy 173.99 71.12) (xy 182.88 71.12)
 		)
 		(stroke
 			(width 0)
@@ -300,7 +318,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 53.34) (xy 172.72 53.34)
+			(xy 182.88 60.96) (xy 173.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -310,7 +328,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 181.61 87.63)
+			(xy 182.88 91.44) (xy 182.88 95.25)
 		)
 		(stroke
 			(width 0)
@@ -320,7 +338,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 181.61 73.66)
+			(xy 182.88 91.44) (xy 182.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -330,7 +348,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 63.5) (xy 181.61 53.34)
+			(xy 182.88 71.12) (xy 182.88 60.96)
 		)
 		(stroke
 			(width 0)
@@ -340,7 +358,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 129.54) (xy 181.61 119.38)
+			(xy 182.88 137.16) (xy 182.88 127)
 		)
 		(stroke
 			(width 0)
@@ -350,16 +368,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 170.18 53.34 90)
+		(at 171.45 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34db85ae-2bda-4ab3-8d0a-0db7d2006f5a")
 		(property "Reference" "H1"
-			(at 168.91 46.99 90)
+			(at 170.18 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,15 +384,15 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 168.91 49.53 90)
+			(at 170.18 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 53.34 0)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_5.2mm_Slot_TopBottom"
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,7 +401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 53.34 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +410,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 170.18 53.34 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,16 +432,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 170.18 119.38 90)
+		(at 171.45 127 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "404330bf-aa18-4af1-a702-b811d913f57a")
 		(property "Reference" "H5"
-			(at 168.91 113.03 90)
+			(at 170.18 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,15 +448,15 @@
 			)
 		)
 		(property "Value" "Camera MountingHole"
-			(at 168.91 115.57 90)
+			(at 170.18 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 170.18 119.38 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly"
+			(at 171.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 119.38 0)
+			(at 171.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +474,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 170.18 119.38 0)
+			(at 171.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -480,16 +496,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 170.18 83.82 90)
+		(at 171.45 91.44 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "43abea00-6270-46a3-86e7-7480b3229e5d")
 		(property "Reference" "H4"
-			(at 168.91 77.47 90)
+			(at 170.18 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,15 +512,15 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 168.91 80.01 90)
+			(at 170.18 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 83.82 0)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_5.2mm_Slot_TopBottom"
+			(at 171.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 83.82 0)
+			(at 171.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +538,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 170.18 83.82 0)
+			(at 171.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,16 +560,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 170.18 129.54 90)
+		(at 171.45 137.16 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "713be585-003f-4f16-9812-af01a552e249")
 		(property "Reference" "H6"
-			(at 168.91 123.19 90)
+			(at 170.18 131.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,15 +576,15 @@
 			)
 		)
 		(property "Value" "Camera MountingHole"
-			(at 168.91 125.73 90)
+			(at 170.18 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 170.18 129.54 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly"
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,7 +593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 129.54 0)
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +602,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 170.18 129.54 0)
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,7 +624,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 87.63 0)
+		(at 182.88 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -618,7 +632,7 @@
 		(dnp no)
 		(uuid "9b82762b-9425-4a3c-91f0-d41308210eb5")
 		(property "Reference" "#PWR054"
-			(at 181.61 93.98 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -627,7 +641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 91.44 0)
+			(at 182.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 87.63 0)
+			(at 182.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 87.63 0)
+			(at 182.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 87.63 0)
+			(at 182.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,16 +689,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 170.18 63.5 90)
+		(at 171.45 71.12 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac055aff-2fe5-498a-a5a7-3d63138a3235")
 		(property "Reference" "H2"
-			(at 168.91 57.15 90)
+			(at 170.18 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +705,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 168.91 59.69 90)
+			(at 170.18 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +713,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 63.5 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,7 +722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 63.5 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +731,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 170.18 63.5 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,16 +753,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 170.18 73.66 90)
+		(at 171.45 81.28 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aff50754-e96b-40fd-a545-5ab4895a467b")
 		(property "Reference" "H3"
-			(at 168.91 67.31 90)
+			(at 170.18 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +769,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 168.91 69.85 90)
+			(at 170.18 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +777,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 73.66 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 73.66 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +795,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 170.18 73.66 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +817,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 134.62 0)
+		(at 182.88 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -813,7 +825,7 @@
 		(dnp no)
 		(uuid "b189e75e-b017-4b16-aafd-1ae369f0d1df")
 		(property "Reference" "#PWR017"
-			(at 181.61 140.97 0)
+			(at 182.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +834,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 138.43 0)
+			(at 182.88 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,7 +842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 134.62 0)
+			(at 182.88 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 134.62 0)
+			(at 182.88 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 134.62 0)
+			(at 182.88 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,8 +881,12 @@
 		)
 	)
 	(sheet
-		(at 110.49 52.07)
+		(at 111.76 59.69)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -881,7 +897,7 @@
 		)
 		(uuid "11f70c33-4cbb-4233-8e61-18a8fe174f05")
 		(property "Sheetname" "Light Sensor"
-			(at 110.49 51.3584 0)
+			(at 111.76 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +906,7 @@
 			)
 		)
 		(property "Sheetfile" "LightSensor.kicad_sch"
-			(at 110.49 65.3546 0)
+			(at 111.76 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +915,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 110.49 52.07 0)
+			(at 111.76 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,8 +932,12 @@
 		)
 	)
 	(sheet
-		(at 110.49 118.11)
+		(at 111.76 125.73)
 		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -928,7 +948,7 @@
 		)
 		(uuid "281d608c-0adc-47e2-a0e6-d9b27e3edbd5")
 		(property "Sheetname" "Interfaces"
-			(at 110.49 117.3984 0)
+			(at 111.76 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +957,7 @@
 			)
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
-			(at 110.49 130.1246 0)
+			(at 111.76 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,8 +974,12 @@
 		)
 	)
 	(sheet
-		(at 110.49 95.25)
+		(at 111.76 102.87)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -966,7 +990,7 @@
 		)
 		(uuid "757bbe31-359d-4282-a8be-b82658fcdbcd")
 		(property "Sheetname" "Coil Driver"
-			(at 110.49 94.5384 0)
+			(at 111.76 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +999,7 @@
 			)
 		)
 		(property "Sheetfile" "CoilDriver.kicad_sch"
-			(at 110.49 108.5346 0)
+			(at 111.76 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,8 +1016,12 @@
 		)
 	)
 	(sheet
-		(at 110.49 73.66)
+		(at 111.76 81.28)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1004,7 +1032,7 @@
 		)
 		(uuid "bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66")
 		(property "Sheetname" "Solar Charger"
-			(at 110.49 72.9484 0)
+			(at 111.76 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1041,7 @@
 			)
 		)
 		(property "Sheetfile" "SolarCharger.kicad_sch"
-			(at 110.49 86.9446 0)
+			(at 111.76 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,4 +1062,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
