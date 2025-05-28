@@ -746,21 +746,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3582,7 +3580,7 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 103.378 37.592 90)
 			(effects
 				(font
@@ -3590,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:SM141K06TF"
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
 			(at 103.124 31.75 90)
 			(effects
 				(font
@@ -4646,7 +4644,7 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 88.138 49.022 90)
 			(effects
 				(font
@@ -4654,7 +4652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:SM141K06TF"
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
 			(at 87.884 43.18 90)
 			(effects
 				(font
@@ -6198,7 +6196,7 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 118.618 37.592 90)
 			(effects
 				(font
@@ -6206,7 +6204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:SM141K06TF"
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
 			(at 118.364 31.75 90)
 			(effects
 				(font
@@ -6332,7 +6330,7 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 57.658 37.592 90)
 			(effects
 				(font
@@ -6340,7 +6338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:SM141K06TF"
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
 			(at 57.404 31.75 90)
 			(effects
 				(font
@@ -6802,7 +6800,7 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 72.898 37.592 90)
 			(effects
 				(font
@@ -6810,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:SM141K06TF"
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
 			(at 72.644 31.75 90)
 			(effects
 				(font
@@ -6869,7 +6867,7 @@
 				)
 			)
 		)
-		(property "Value" "SM141K10TF"
+		(property "Value" "SM141K10TF/S"
 			(at 88.138 37.592 90)
 			(effects
 				(font
@@ -6877,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:SM141K10TF"
+		(property "Footprint" "Argus-Miscellaneous:SM141K10TF_S"
 			(at 87.884 31.75 90)
 			(effects
 				(font
