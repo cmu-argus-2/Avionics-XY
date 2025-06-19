@@ -1888,26 +1888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "C1608X7S1A475K080AC"
+		(property "MPN" "C126617"
 			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924"
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 73.025 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,26 +2076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "GCM188R72A223KA37D"
+		(property "MPN" "C161234"
 			(at 165.1 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/murata-electronics/GCM188R72A223KA37D/490-4782-1-ND/1641701"
-			(at 165.1 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 165.1 71.755 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,16 +2162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "RK73Z1JTTD\r"
-			(at 118.11 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522\r"
+		(property "MPN" "C844915"
 			(at 118.11 119.38 0)
 			(effects
 				(font
@@ -2244,7 +2199,7 @@
 		(at 109.22 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "58801838-9b3f-4a7c-a93a-e4a13b591022")
@@ -2302,6 +2257,15 @@
 		)
 		(property "Order" "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522\r"
 			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 109.22 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,26 +2350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "CL10B105KP8NFNC"
+		(property "MPN" "C2214844"
 			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NFNC/1276-1945-1-ND/3890031"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 93.345 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,26 +2436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "GRM32EC81C476KE15L"
+		(property "MPN" "C2214844"
 			(at 191.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC81C476KE15L/490-10531-1-ND/5026469"
-			(at 191.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 196.215 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2589,7 @@
 				)
 			)
 		)
-		(property "Value" "LTC3130"
+		(property "Value" "LTC3130IUDC"
 			(at 153.67 104.14 0)
 			(effects
 				(font
@@ -2688,6 +2616,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C684244"
 			(at 153.67 102.87 0)
 			(effects
 				(font
@@ -2828,26 +2765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "GCM188R72A223KA37D"
+		(property "MPN" "C161234"
 			(at 142.24 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/murata-electronics/GCM188R72A223KA37D/490-4782-1-ND/1641701"
-			(at 142.24 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 142.24 71.755 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,26 +2851,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "C1608X7S1A475K080AC"
+		(property "MPN" "C2214844"
 			(at 78.74 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924"
-			(at 78.74 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 83.185 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,26 +2937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "C1608X7S1A475K080AC"
+		(property "MPN" "C437575"
 			(at 182.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924"
-			(at 182.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 187.325 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,16 +3117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "RK73Z1JTTD\r"
-			(at 124.46 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522\r"
+		(property "MPN" "C844915"
 			(at 124.46 119.38 0)
 			(effects
 				(font
@@ -3327,17 +3201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "RK73Z1JTTD\r"
-			(at 184.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522\r"
-			(at 184.15 97.79 0)
+		(property "MPN" "C844915"
+			(at 184.15 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)

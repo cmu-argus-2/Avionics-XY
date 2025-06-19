@@ -861,12 +861,12 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I2C ADDR\nInstall R1: 0x45\nInstall R2: 0x44"
+	(text "I2C ADDR\n+/-Y: Install R1: 0x45\n+/-X: Install R2: 0x44"
 		(exclude_from_sim no)
-		(at 129.54 123.952 0)
+		(at 129.032 129.286 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.159 2.159)
 			)
 			(justify left bottom)
 		)
@@ -1513,6 +1513,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C22406808"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "a90f3426-a95e-43fa-84c5-fe64c9ebcff4")
 		)
@@ -1657,6 +1666,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C307348"
 			(at 109.22 97.79 0)
 			(effects
 				(font

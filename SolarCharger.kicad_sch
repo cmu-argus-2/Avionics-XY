@@ -1311,20 +1311,30 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I2C ADDR\nR36, R37\n0R, 0R: 0x40\n150k, 0R: 0x41\nDNP, DNP: 0x4A\n0R, DNP: 0x48\n"
+	(text "I2C ADDR\nR36, R37\nX-: 0R,   0R : 0x40\nY-: 150k, 0R : 0x41\nY+: DNP,  DNP: 0x4A\nX+: 0R,   DNP: 0x48\n"
 		(exclude_from_sim no)
-		(at 225.044 56.388 0)
+		(at 180.594 42.164 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.159 2.159)
 			)
 			(justify left bottom)
 		)
 		(uuid "04f95319-28b2-4ccb-8561-f2fe97977754")
 	)
+	(text "Rsense"
+		(exclude_from_sim no)
+		(at 189.992 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5055444e-a9e0-4c08-be4b-f3be328bd798")
+	)
 	(text "#TODO: Check Resistor Values"
 		(exclude_from_sim no)
-		(at 44.958 189.484 0)
+		(at 83.82 191.516 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1334,7 +1344,7 @@
 	)
 	(text "#TODO: Spec Fuses"
 		(exclude_from_sim no)
-		(at 179.324 35.814 0)
+		(at 143.51 45.212 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3548,6 +3558,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C237792"
+			(at 105.41 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc9d65e7-60fb-44ef-861b-6bce41a98d40")
 		)
@@ -4007,6 +4026,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3877267"
+			(at 260.35 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28eeb943-6211-470b-a85d-a94ca8b3492d")
 		)
@@ -4336,6 +4364,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2484712"
+			(at 208.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4885,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "500mA"
 			(at 43.18 151.638 0)
 			(effects
 				(font
@@ -4883,6 +4920,14 @@
 				(hide yes)
 			)
 		)
+		(property "Flight" "0R"
+			(at 43.18 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a4882bc7-b5b5-4788-8ae7-d36d43ada4a0")
 		)
@@ -4915,7 +4960,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "500mA"
 			(at 43.18 107.188 0)
 			(effects
 				(font
@@ -4948,6 +4993,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Flight" "0R"
+			(at 43.18 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5372,7 +5425,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8160fa20-7243-4e75-ba01-0110174995e2")
 		(property "Reference" "R37"
 			(at 240.03 29.718 0)
@@ -5383,7 +5436,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "?R"
 			(at 240.03 31.496 0)
 			(effects
 				(font
@@ -5479,6 +5532,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 105.41 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,6 +5819,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C118142"
+			(at 113.03 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4df3ec8f-4402-4fa0-b947-46bcec6c1dba")
 		)
@@ -5780,7 +5851,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a238e39f-cbbb-458a-9c83-8961d09ebaaa")
 		(property "Reference" "R36"
 			(at 224.79 29.718 0)
@@ -5791,7 +5862,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "?R"
 			(at 224.79 31.496 0)
 			(effects
 				(font
@@ -5993,7 +6064,7 @@
 				)
 			)
 		)
-		(property "Value" "100mA"
+		(property "Value" "500mA"
 			(at 132.08 29.464 0)
 			(effects
 				(font
@@ -6026,6 +6097,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Flight" "0R"
+			(at 132.08 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6156,6 +6235,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C118142"
 			(at 113.03 77.47 0)
 			(effects
 				(font
@@ -6936,7 +7024,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01R"
+		(property "Value" "10m"
 			(at 186.69 82.296 0)
 			(effects
 				(font
@@ -6964,6 +7052,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C840621"
 			(at 187.96 81.28 0)
 			(effects
 				(font
@@ -7108,6 +7205,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C237792"
+			(at 105.41 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c765d9a-3a68-46f1-946e-4f746be82123")
 		)
@@ -7235,6 +7341,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 113.03 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C118142"
 			(at 113.03 121.92 0)
 			(effects
 				(font

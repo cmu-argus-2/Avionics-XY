@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2032
+          "min_clearance": 0.1524
         }
       },
       "diff_pair_dimensions": [
@@ -501,7 +501,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Gerbers/XY/",
+      "plot": "../../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Avionics-SolarPanels.step",
@@ -695,6 +695,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -723,6 +731,14 @@
     [
       "b4f3b5ea-3783-47e9-83c1-86877692286f",
       "Charge OR-ing2"
+    ],
+    [
+      "030aefcc-857a-45c9-8f9f-bcbd540dab1b",
+      "I2C Single Protection6"
+    ],
+    [
+      "5acd3e16-4033-44e3-82ef-2f186c066b3d",
+      "I2C Single Protection7"
     ],
     [
       "4e3e35be-185d-45f8-8e31-9bc7a632d527",
@@ -775,6 +791,10 @@
     [
       "ae5e8f3d-99fc-49d7-a7d8-0dff12997cc8",
       "I2C Single Protection3"
+    ],
+    [
+      "cb41067c-1338-498e-94c1-f33ab5080b97",
+      "Deployment Sensor"
     ]
   ],
   "text_variables": {}

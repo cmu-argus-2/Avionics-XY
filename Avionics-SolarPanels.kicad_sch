@@ -318,6 +318,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 60.96) (xy 218.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5317ff-3138-404c-92d5-3b34843bec52")
+	)
+	(wire
+		(pts
 			(xy 182.88 60.96) (xy 173.99 60.96)
 		)
 		(stroke
@@ -325,6 +335,16 @@
 			(type default)
 		)
 		(uuid "98d6fd87-e05d-4607-b004-2bee9b5b9641")
+	)
+	(wire
+		(pts
+			(xy 210.82 60.96) (xy 218.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99edc798-086f-4c43-a43b-2c041a538a04")
 	)
 	(wire
 		(pts
@@ -425,6 +445,70 @@
 			(project ""
 				(path "/92e58b76-9357-4452-b231-18fffdf58e73"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 208.28 60.96 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ad568c4-5ad3-48f9-a79f-12af7cbf50a1")
+		(property "Reference" "H7"
+			(at 207.01 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Access Port"
+			(at 207.01 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:Access Port 2"
+			(at 208.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 208.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91406c2-f81d-4f99-9835-21c1cb5711be")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -880,6 +964,71 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb419b0f-1ba7-4f3d-a031-a485e3715cde")
+		(property "Reference" "#PWR060"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a88f4d6-b4c3-4291-9d7e-4212a7d001c5")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 111.76 59.69)
 		(size 12.7 12.7)
@@ -933,7 +1082,7 @@
 	)
 	(sheet
 		(at 111.76 125.73)
-		(size 12.7 11.43)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -957,7 +1106,7 @@
 			)
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
-			(at 111.76 137.7446 0)
+			(at 111.76 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,6 +1202,48 @@
 			(project "Avionics-SolarPanels"
 				(path "/92e58b76-9357-4452-b231-18fffdf58e73"
 					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 148.082)
+		(size 12.7 12.192)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb41067c-1338-498e-94c1-f33ab5080b97")
+		(property "Sheetname" "Deployment Sensor"
+			(at 111.76 147.3704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DeploymentSensor.kicad_sch"
+			(at 111.76 160.8586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73"
+					(page "18")
 				)
 			)
 		)
