@@ -3544,7 +3544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2k7"
 			(at 223.774 133.096 0)
 			(effects
 				(font
@@ -3601,9 +3601,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1b2a84db-7299-4b09-850e-e2cd4641f4fa")
 		(property "Reference" "R87"
 			(at 197.612 109.728 0)
@@ -3613,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "?R"
 			(at 198.12 111.506 0)
 			(effects
 				(font
@@ -4340,9 +4340,9 @@
 		(at 54.61 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "54126b22-7ae7-429c-aee3-c538e4d7483e")
 		(property "Reference" "R82"
 			(at 56.134 142.748 0)
@@ -4566,9 +4566,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "70ddea93-a45c-41f7-a0eb-52d82919ea4f")
 		(property "Reference" "R86"
 			(at 182.372 109.728 0)
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "?R"
 			(at 182.88 111.506 0)
 			(effects
 				(font
@@ -4907,9 +4907,9 @@
 		(at 101.6 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8d7b2944-0c0e-4aab-abbc-2e35df3d9ba2")
 		(property "Reference" "R84"
 			(at 96.52 142.494 0)
@@ -5280,9 +5280,9 @@
 		(at 54.61 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ab5bc3b2-df65-4324-849d-a1b3c427a9af")
 		(property "Reference" "R83"
 			(at 56.134 152.908 0)
@@ -5635,9 +5635,9 @@
 		(at 101.6 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "be12a40c-9541-467a-8546-54908317f157")
 		(property "Reference" "R85"
 			(at 96.266 152.654 0)
@@ -6368,7 +6368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1M"
 			(at 223.774 143.256 0)
 			(effects
 				(font
@@ -6437,7 +6437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "560R"
 			(at 169.164 138.176 0)
 			(effects
 				(font

@@ -1322,6 +1322,71 @@
 		)
 		(uuid "04f95319-28b2-4ccb-8561-f2fe97977754")
 	)
+	(text "V_out = 1.00 * (1 + R27 / R28)\nV_out = 1.00 * (1 + 2M / 270k)\nV_out = 1.00 * (1 + 7.41)\nV_out = 8.41V"
+		(exclude_from_sim no)
+		(at 130.81 121.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1287c90e-3d6c-4875-beb9-3f0ae645493e")
+	)
+	(text "DNP if using MPPC"
+		(exclude_from_sim no)
+		(at 101.346 130.81 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "139c1c1a-e68b-436e-8d1c-9887c6be33db")
+	)
+	(text "V_in(turnon) = 1.05 * (1 + R17 / R18)\nV_in(turnon) = 1.05 * (1 + 1.87M / 140k)\nV_in(turnon) = 1.05 * (1 + 13.36)\nV_in(turnon) = 15.08V"
+		(exclude_from_sim no)
+		(at 13.208 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "229d7fc9-7460-4dd3-87e4-734aca771458")
+	)
+	(text "V_out = 1.00 * (1 + R34 / R35)\nV_out = 1.00 * (1 + 2M / 270k)\nV_out = 1.00 * (1 + 7.41)\nV_out = 8.41V"
+		(exclude_from_sim no)
+		(at 130.81 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cfeecd5-98d2-4152-95ae-b962f3af05f1")
+	)
+	(text "V_in(mppc) = 1.00 * (1 + R29 / R30)\nV_in(mppc) = 1.00 * (1 + 2M / 127k)\nV_in(mppc) = 1.00 * (1 + 15.75)\nV_in(mppc) = 16.75V"
+		(exclude_from_sim no)
+		(at 13.462 163.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e4d1a95-1fbb-46b7-8dce-f7ff721e1685")
+	)
+	(text "Use if populating SC6\nV_in(mppc) = 1.00 * (1 + R15 / R16)\nV_in(mppc) = 1.00 * (1 + 2M / 127k)\nV_in(mppc) = 1.00 * (1 + 15.75)\nV_in(mppc) = 16.75V"
+		(exclude_from_sim no)
+		(at 13.208 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42944016-d46d-4204-87c4-51c174a5ebe2")
+	)
 	(text "Rsense"
 		(exclude_from_sim no)
 		(at 189.992 81.28 90)
@@ -1331,6 +1396,27 @@
 			)
 		)
 		(uuid "5055444e-a9e0-4c08-be4b-f3be328bd798")
+	)
+	(text "DNP if using MPPC"
+		(exclude_from_sim no)
+		(at 101.346 86.36 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "5ce4c098-fcca-4b26-a1a6-62cc4723a039")
+	)
+	(text "V_in(turnon) = 1.05 * (1 + R31 / R32)\nV_in(turnon) = 1.05 * (1 + 1.87M / 140k)\nV_in(turnon) = 1.05 * (1 + 13.36)\nV_in(turnon) = 15.08V"
+		(exclude_from_sim no)
+		(at 13.462 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e378940-2f83-4dfa-9738-c8e76d69a26e")
 	)
 	(text "#TODO: Check Resistor Values"
 		(exclude_from_sim no)
@@ -1342,6 +1428,39 @@
 		)
 		(uuid "68c8a7fe-6c7a-4a80-96de-8fcf9c22e654")
 	)
+	(text "V_in(turnon) = 1.05 * (1 + R24 / R25)\nV_in(turnon) = 1.05 * (1 + 1.87M / 140k)\nV_in(turnon) = 1.05 * (1 + 13.36)\nV_in(turnon) = 15.08V"
+		(exclude_from_sim no)
+		(at 13.208 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84522ff7-dca8-4e17-81e9-5dc7c59d3bb4")
+	)
+	(text "Use if populating SC3\nV_in(mppc) = 1.00 * (1 + R15 / R16)\nV_in(mppc) = 1.00 * (1 + 1.8M / 100k)\nV_in(mppc) = 1.00 * (1 + 18)\nV_in(mppc) = 19.0V"
+		(exclude_from_sim no)
+		(at 13.462 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98d687c1-02ec-4e54-8939-16e6480c0a73")
+	)
+	(text "V_out = 1.00 * (1 + R20 / R21)\nV_out = 1.00 * (1 + 2M / 270k)\nV_out = 1.00 * (1 + 7.41)\nV_out = 8.41V"
+		(exclude_from_sim no)
+		(at 130.556 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbba9167-5092-491a-be2c-1baa1af5844d")
+	)
 	(text "#TODO: Spec Fuses"
 		(exclude_from_sim no)
 		(at 143.51 45.212 0)
@@ -1351,6 +1470,38 @@
 			)
 		)
 		(uuid "e2fcbc4d-3ed8-4184-875e-948e9d3d1401")
+	)
+	(text "DNP if using MPPC"
+		(exclude_from_sim no)
+		(at 101.346 175.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "f77dcd8f-3243-4ffe-93fa-0487294dc8f4")
+	)
+	(text "V_in(turnon) = 1.05 * (1 + R17 / R18)\nV_in(turnon) = 1.05 * (1 + 2.10M / 137k)\nV_in(turnon) = 1.05 * (1 + 15.33)\nV_in(turnon) = 17.15V"
+		(exclude_from_sim no)
+		(at 13.462 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f820ebaa-188f-4d33-a0aa-5cc648dbe73b")
+	)
+	(text "V_in(mppc) = 1.00 * (1 + R22 / R23)\nV_in(mppc) = 1.00 * (1 + 2M / 127k)\nV_in(mppc) = 1.00 * (1 + 15.75)\nV_in(mppc) = 16.75V"
+		(exclude_from_sim no)
+		(at 13.208 119.126 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9655e58-33c0-4522-b1bf-5a143041af11")
 	)
 	(text "Solar Charging Power Monitor"
 		(exclude_from_sim no)
@@ -1588,18 +1739,6 @@
 	(no_connect
 		(at 251.46 78.74)
 		(uuid "3bb6ea80-9429-4def-be20-75609e48b7fb")
-	)
-	(no_connect
-		(at 93.98 124.46)
-		(uuid "9c1c249e-7037-48a8-8534-9845325d0a59")
-	)
-	(no_connect
-		(at 93.98 168.91)
-		(uuid "9e785041-96a4-44c6-8daa-edbcd842f243")
-	)
-	(no_connect
-		(at 93.98 80.01)
-		(uuid "c547b61d-c0cd-491a-b10e-e37ea608c385")
 	)
 	(wire
 		(pts
@@ -2093,6 +2232,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 124.46) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597f6756-948a-4541-a47a-d67205f183b6")
+	)
+	(wire
+		(pts
 			(xy 167.64 90.17) (xy 167.64 106.68)
 		)
 		(stroke
@@ -2233,6 +2382,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 124.46) (xy 97.79 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c7cc0d-31cf-4b5c-b367-ed3a80bc89b6")
+	)
+	(wire
+		(pts
 			(xy 121.92 31.75) (xy 125.73 31.75)
 		)
 		(stroke
@@ -2240,6 +2399,16 @@
 			(type default)
 		)
 		(uuid "78b7344d-cb5d-46c0-9577-7efe8c4af0bf")
+	)
+	(wire
+		(pts
+			(xy 102.87 168.91) (xy 107.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f8ceed-97dd-4546-baf7-484e644bae2f")
 	)
 	(wire
 		(pts
@@ -2330,6 +2499,16 @@
 			(type default)
 		)
 		(uuid "8a85689e-d172-476e-98e9-aab3565acc45")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 97.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cfc41ed-a8fb-4c79-b494-688871a13b03")
 	)
 	(wire
 		(pts
@@ -2520,6 +2699,16 @@
 			(type default)
 		)
 		(uuid "a1bef132-523c-4b6a-b2d4-5fae058b09df")
+	)
+	(wire
+		(pts
+			(xy 93.98 168.91) (xy 97.79 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fa221d-1296-4acb-b8d8-f522c2619ff1")
 	)
 	(wire
 		(pts
@@ -2840,6 +3029,16 @@
 			(type default)
 		)
 		(uuid "d628b8ba-93ce-4566-8147-e5077c4fa37e")
+	)
+	(wire
+		(pts
+			(xy 102.87 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0ee79b-9b6f-4fa4-9988-7d729d83a3a3")
 	)
 	(wire
 		(pts
@@ -3191,6 +3390,16 @@
 		)
 		(uuid "16350cc3-75f8-479a-8020-a83daec360a0")
 	)
+	(label "MPPC1"
+		(at 62.23 116.84 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "18c24009-06cb-4c07-84e6-31d8579072b6")
+	)
 	(label "A1"
 		(at 246.38 25.4 180)
 		(effects
@@ -3250,6 +3459,26 @@
 			(justify left bottom)
 		)
 		(uuid "71d02402-f9cf-485e-a76d-be51b6f30003")
+	)
+	(label "MPPC"
+		(at 62.23 72.39 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "833b8efb-bb78-49e9-8261-27e281d0b854")
+	)
+	(label "MPPC2"
+		(at 62.23 161.29 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "852224e0-1715-4e0a-932b-3868ebbb70a2")
 	)
 	(label "DSOLAR1"
 		(at 49.53 109.22 0)
@@ -3311,6 +3540,26 @@
 		)
 		(uuid "b0a5d97c-c1a5-4614-a8dc-3e88484483f4")
 	)
+	(label "MPPC"
+		(at 107.95 80.01 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "d361921c-3732-4d59-b3b4-a9cae052c7aa")
+	)
+	(label "MPPC1"
+		(at 107.95 124.46 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "d64cd06c-be50-4935-baf0-56f7ba827ff8")
+	)
 	(label "A1"
 		(at 213.36 81.28 0)
 		(effects
@@ -3320,6 +3569,16 @@
 			(justify left bottom)
 		)
 		(uuid "e846d036-213a-4dea-8c2b-bfb28bee0f0b")
+	)
+	(label "MPPC2"
+		(at 107.95 168.91 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7ed5da0-68ce-430a-9269-07b385389b6c")
 	)
 	(label "VSOLAR"
 		(at 60.96 91.44 0)
@@ -3781,6 +4040,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 100.33 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18b9a953-f705-46e7-ae4f-4f05789b3490")
+		(property "Reference" "R119"
+			(at 100.33 171.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 100.33 172.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 100.33 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71f04c74-17a2-4454-9a8f-d2f4a7a8f0f7")
+		)
+		(pin "2"
+			(uuid "040dcdf0-814d-4e96-82f1-19d51076499b")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66"
+					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Argus-IC:ADM1176-1ARMZ-R7")
 		(at 233.68 81.28 0)
 		(unit 1)
@@ -4187,9 +4522,9 @@
 		(at 62.23 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2c2584c8-f98f-4d7a-851e-691d59f02e37")
 		(property "Reference" "R15"
 			(at 60.96 67.564 0)
@@ -4200,7 +4535,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "1.8M"
 			(at 60.96 69.596 0)
 			(effects
 				(font
@@ -4531,9 +4866,9 @@
 		(at 62.23 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49049347-4c1b-4994-bc8a-1e5103196ab3")
 		(property "Reference" "R29"
 			(at 60.96 156.464 0)
@@ -4544,7 +4879,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "2M"
 			(at 60.96 158.496 0)
 			(effects
 				(font
@@ -4600,9 +4935,9 @@
 		(at 62.23 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "517b7d88-30ec-426d-a8e1-4f503e5f63ef")
 		(property "Reference" "R30"
 			(at 60.96 164.084 0)
@@ -4613,7 +4948,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "126k"
+		(property "Value" "127k"
 			(at 60.96 166.116 0)
 			(effects
 				(font
@@ -4750,7 +5085,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.47M"
+		(property "Value" "2M"
 			(at 114.3 68.326 0)
 			(effects
 				(font
@@ -4818,7 +5153,7 @@
 				)
 			)
 		)
-		(property "Value" "182k"
+		(property "Value" "140k"
 			(at 90.17 184.658 90)
 			(effects
 				(font
@@ -5035,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "1.87M"
 			(at 74.93 184.658 90)
 			(effects
 				(font
@@ -5104,7 +5439,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.47M"
+		(property "Value" "2M"
 			(at 114.3 112.776 0)
 			(effects
 				(font
@@ -5172,7 +5507,7 @@
 				)
 			)
 		)
-		(property "Value" "182k"
+		(property "Value" "137k"
 			(at 90.17 95.504 90)
 			(effects
 				(font
@@ -5489,6 +5824,82 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 100.33 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "858588a8-f8e9-4eb0-a528-83bac8758dd7")
+		(property "Reference" "R120"
+			(at 100.33 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 100.33 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 100.33 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86e60a1a-9e58-4e60-9915-921f60deed43")
+		)
+		(pin "2"
+			(uuid "73622d6d-d0c2-4d83-8fbb-3f476b823787")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66"
+					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 105.41 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5565,12 +5976,88 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 62.23 113.03 0)
+		(at 100.33 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "8f1bd118-97f5-495b-a479-184bbc3fcfc6")
+		(property "Reference" "R118"
+			(at 100.33 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 100.33 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 100.33 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fa38ff4-c67e-430d-9053-99b031d7e2e0")
+		)
+		(pin "2"
+			(uuid "09a6144e-75eb-4237-bd4d-93a8ecb11f61")
+		)
+		(instances
+			(project "Avionics-SolarPanels"
+				(path "/92e58b76-9357-4452-b231-18fffdf58e73/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 62.23 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "93df3ad9-2f39-4c70-a4ba-f7e6f54c27b8")
 		(property "Reference" "R22"
 			(at 60.96 112.014 0)
@@ -5581,7 +6068,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "2M"
 			(at 60.96 114.046 0)
 			(effects
 				(font
@@ -5783,7 +6270,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "270k"
 			(at 114.3 167.386 0)
 			(effects
 				(font
@@ -5918,9 +6405,9 @@
 		(at 62.23 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aa5b79ba-7c12-4e2d-9b8e-9edb041d67e2")
 		(property "Reference" "R23"
 			(at 60.96 119.634 0)
@@ -5931,7 +6418,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "126k"
+		(property "Value" "127k"
 			(at 60.96 121.666 0)
 			(effects
 				(font
@@ -6207,7 +6694,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "270k"
 			(at 114.3 78.486 0)
 			(effects
 				(font
@@ -6553,7 +7040,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.47M"
+		(property "Value" "2M"
 			(at 114.3 157.226 0)
 			(effects
 				(font
@@ -6621,7 +7108,7 @@
 				)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "1.87M"
 			(at 74.93 140.208 90)
 			(effects
 				(font
@@ -6754,7 +7241,7 @@
 				)
 			)
 		)
-		(property "Value" "182k"
+		(property "Value" "140k"
 			(at 90.17 140.208 90)
 			(effects
 				(font
@@ -7089,9 +7576,9 @@
 		(at 62.23 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f6af4c69-f245-49e1-bc10-51ecd7b7ebb2")
 		(property "Reference" "R16"
 			(at 60.96 75.184 0)
@@ -7102,7 +7589,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "126k"
+		(property "Value" "100k"
 			(at 60.96 77.216 0)
 			(effects
 				(font
@@ -7313,7 +7800,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "270k"
 			(at 114.3 122.936 0)
 			(effects
 				(font
@@ -7391,7 +7878,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "2.10M"
 			(at 71.882 95.504 90)
 			(effects
 				(font

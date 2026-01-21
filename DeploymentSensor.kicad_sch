@@ -1772,7 +1772,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VL53L4CX"
+		(property "Value" "VL53L4CD"
 			(at 120.396 117.094 0)
 			(effects
 				(font

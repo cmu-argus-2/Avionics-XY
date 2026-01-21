@@ -2350,7 +2350,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -2436,7 +2436,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 191.77 93.98 0)
 			(effects
 				(font
@@ -2851,7 +2851,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 78.74 96.52 0)
 			(effects
 				(font

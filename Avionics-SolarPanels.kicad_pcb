@@ -216,9 +216,9 @@
 	(net 84 "/Solar Charger/MPPT1/RUN")
 	(net 85 "/Solar Charger/A0")
 	(net 86 "/Solar Charger/MPPT2/RUN")
-	(net 87 "/Solar Charger/MPPT/MPPC")
-	(net 88 "/Solar Charger/MPPT1/MPPC")
-	(net 89 "/Solar Charger/MPPT2/MPPC")
+	(net 87 "/Solar Charger/MPPC")
+	(net 88 "/Solar Charger/MPPC1")
+	(net 89 "/Solar Charger/MPPC2")
 	(net 90 "/Solar Charger/PGOOD1")
 	(net 91 "/Solar Charger/PGOOD2")
 	(net 92 "/Solar Charger/PGOOD3")
@@ -642,6 +642,218 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "21055c85-e146-4333-8cb9-910cb668648f")
+		(at 201.0796 129.4222)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R118"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "0e42bde6-73e3-4723-9ac7-e3ce21e7469c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "b1e9f475-012c-43ea-99f8-7be6778b7490")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c9388ff-0b70-4913-96a7-e7361d884526")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f31fd689-0b64-42cf-9ece-b185fdbbe0a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a07392e-7dba-40b8-a756-f8a074e59925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/8f1bd118-97f5-495b-a479-184bbc3fcfc6")
+		(sheetname "/Solar Charger/")
+		(sheetfile "SolarCharger.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1461fd14-d294-4303-aa2b-73b2ac2a84c0")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1dd5748-ca15-4edf-9347-810a92fc77a5")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1a938929-ee26-4527-97e3-082f4dc389d4")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "53803ab0-48bb-4039-9863-90616784eacc")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9fc41f4-a753-4463-93b5-820f9f5d8267")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f3a3ba83-be4b-4985-a746-4662a4844d79")
+		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e965a83d-73ad-4bea-abb8-cedb5f69f8d1")
+		)
+		(fp_line
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4cc762dd-2315-4102-b4af-2d362b4566f7")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e12a11ec-8d90-44cc-842f-cfb5ef759246")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d58177e3-8ea0-4def-bc8c-910225215436")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f3a22679-926d-4739-8591-4596c0e74b27")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 21 "/Solar Charger/MPPT1/VCC")
+			(pintype "passive")
+			(uuid "451b04f9-4fb7-4fc3-b096-8377c380773a")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 88 "/Solar Charger/MPPC1")
+			(pintype "passive")
+			(uuid "055a5745-0fb8-4a1b-a5d6-e50afbd69f3d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Argus-Miscellaneous:SM141K06TF_S"
 		(layer "F.Cu")
 		(uuid "25cf96e9-ab87-42f5-8b39-afa7509e92f9")
@@ -834,7 +1046,7 @@
 				)
 			)
 		)
-		(property "Value" "VL53L4CX"
+		(property "Value" "VL53L4CD"
 			(at 0 2.300001 90)
 			(layer "F.Fab")
 			(uuid "a09b650e-9b10-42aa-bd67-7f60db65ec0e")
@@ -1983,7 +2195,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "?R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "13a1e66f-6fb4-4fcf-83ca-03e7fedf8441")
@@ -2022,7 +2234,7 @@
 		(path "/11f70c33-4cbb-4233-8e61-18a8fe174f05/818f3498-98b1-42ee-a8e8-2c3425791587")
 		(sheetname "/Light Sensor/")
 		(sheetfile "LightSensor.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -2519,6 +2731,218 @@
 			(uuid "429604f6-a3ae-4c50-916d-d9bb73942f74")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "68cb0355-c624-4539-a98e-3e611ba7e67e")
+		(at 201.0796 131.9322)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R119"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "c3d635d9-6425-45ee-b40f-3571d2a12de4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "13790074-6905-4efe-a96d-c1ad7ecdc986")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5001f008-780a-4674-857a-a9ae78e84ce0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bdb62b6-79fd-43cd-bc83-b95ae12c96fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b04c0874-3922-4195-815c-e96444bb24bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/18b9a953-f705-46e7-ae4f-4f05789b3490")
+		(sheetname "/Solar Charger/")
+		(sheetfile "SolarCharger.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce9cb9ef-9ab6-46b2-b38a-bae0d94d764a")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4aa3046-0f43-4f87-9fc2-58f79b93163a")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a3c6b03a-a743-4b24-814b-d75039e2f832")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c452c026-a366-43d1-bacf-b4bcc35a1517")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "08bf3138-d538-40a1-8171-6a24332eab98")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "77adc42e-eb34-4f2d-80c4-7d5f0ed8670c")
+		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a5b4520-7cdd-4174-9d79-a89ea5dc4fea")
+		)
+		(fp_line
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f67e48c-65ef-45c6-8186-43c3e416525e")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e3d9f541-07a0-4072-a56a-d73100a34c9c")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d3c25cf9-d36a-4f25-829a-63244d5d7d51")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dc7f14d9-e942-43a6-9f00-ac104a5cf59b")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 32 "/Solar Charger/MPPT2/VCC")
+			(pintype "passive")
+			(uuid "e7398045-fabc-46a5-928d-ad39b951765c")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 89 "/Solar Charger/MPPC2")
+			(pintype "passive")
+			(uuid "5548e4ba-592d-4078-b607-97a9d79978e3")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_PowerDI-123"
 		(layer "F.Cu")
@@ -4362,6 +4786,218 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "c5f02f65-0b3c-4b0d-9df7-985ee31b5526")
+		(at 201.0796 134.4422)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R120"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "915b7780-ddf1-4b03-b021-6d3b616cc8d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "995f828d-5978-40be-81e1-b6601265ef9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cb62247-a807-4466-b993-5c2966a7fb47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "becb90ba-95f1-4443-9f7e-d34657f592ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f549cb21-f023-47b3-849b-e67f4943784e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/858588a8-f8e9-4eb0-a528-83bac8758dd7")
+		(sheetname "/Solar Charger/")
+		(sheetfile "SolarCharger.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ec385a2-8c59-4cb3-95ec-9b6e6416809f")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "07f13d63-e9a0-423f-8b97-97869d0578e9")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "79fed95b-0522-4a6b-b3ab-73911a50b3cd")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cef09713-254f-41c7-96a9-15a665c861c9")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eccab9bb-a0e2-4f95-ab1d-07c96b48024d")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7974eec0-3d60-496b-9a42-3ec0e73063ca")
+		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0cf0b3ee-0512-4378-b66d-7713b501526f")
+		)
+		(fp_line
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e24ab0f-cd67-4506-93af-aa30ecd32e96")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "130bf375-c21f-4498-88c8-1a6aef2fce30")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8deadf72-23a5-4f47-9993-c0163d91fb12")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "15d67fdd-08a5-49a7-a967-c4c390d47225")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 13 "/Solar Charger/MPPT/VCC")
+			(pintype "passive")
+			(uuid "d06003f2-695e-4b7d-a6bf-13025217c960")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 87 "/Solar Charger/MPPC")
+			(pintype "passive")
+			(uuid "707a2c74-3229-4d36-892b-f807f9df8563")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Argus-Miscellaneous:SM141K06TF_S"
 		(layer "F.Cu")
 		(uuid "d0d6b12b-0eef-4a06-9931-b926f3c62dfe")
@@ -4678,7 +5314,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "?R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "860677ab-175b-4aa3-a847-9c9f37dff18f")
@@ -4717,7 +5353,7 @@
 		(path "/11f70c33-4cbb-4233-8e61-18a8fe174f05/1a473b67-de96-4fa5-9bc5-d2c7d8384272")
 		(sheetname "/Light Sensor/")
 		(sheetfile "LightSensor.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -5452,7 +6088,7 @@
 				(justify left mirror)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "?R"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "35104231-2725-467f-a481-0b24af291dde")
@@ -5496,7 +6132,7 @@
 		(path "/757bbe31-359d-4282-a8be-b82658fcdbcd/70ddea93-a45c-41f7-a0eb-52d82919ea4f")
 		(sheetname "/Coil Driver/")
 		(sheetfile "CoilDriver.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -9605,7 +10241,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11435,7 +12071,7 @@
 				(justify left mirror)
 			)
 		)
-		(property "Value" "1.47M"
+		(property "Value" "2M"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "dd085247-695d-413f-871f-25d342018eea")
@@ -13092,7 +13728,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15274,7 +15910,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17148,7 +17784,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "2M"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "7db7d626-fb05-4b6d-8bba-eb52498fb455")
@@ -17192,7 +17828,7 @@
 		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/93df3ad9-2f39-4c70-a4ba-f7e6f54c27b8")
 		(sheetname "/Solar Charger/")
 		(sheetfile "SolarCharger.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -17319,7 +17955,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 88 "/Solar Charger/MPPT1/MPPC")
+			(net 88 "/Solar Charger/MPPC1")
 			(pintype "passive")
 			(uuid "3458e9ae-6466-42a0-aba4-27e108825248")
 		)
@@ -20199,7 +20835,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20379,7 +21015,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "2.10M"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "2bcfecf3-4ea0-404b-b7d8-fd8d5ab3fb43")
@@ -21437,7 +22073,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22330,7 +22966,7 @@
 				(justify right mirror)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "270k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "da394fbc-e65c-401f-86d7-0dc60d13faed")
@@ -22772,7 +23408,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "126k"
+		(property "Value" "127k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "9730744d-270d-4f37-a77b-198cdc3c309a")
@@ -22816,7 +23452,7 @@
 		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/aa5b79ba-7c12-4e2d-9b8e-9edb041d67e2")
 		(sheetname "/Solar Charger/")
 		(sheetfile "SolarCharger.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -22934,7 +23570,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 88 "/Solar Charger/MPPT1/MPPC")
+			(net 88 "/Solar Charger/MPPC1")
 			(pintype "passive")
 			(uuid "bc810e88-955d-4c0c-b585-e7716100000b")
 		)
@@ -23407,7 +24043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "2M"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "74004a81-94bc-4d0b-a9cc-cd78ef1cdbfa")
@@ -23451,7 +24087,7 @@
 		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/49049347-4c1b-4994-bc8a-1e5103196ab3")
 		(sheetname "/Solar Charger/")
 		(sheetfile "SolarCharger.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -23578,7 +24214,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 89 "/Solar Charger/MPPT2/MPPC")
+			(net 89 "/Solar Charger/MPPC2")
 			(pintype "passive")
 			(uuid "ab2c7cc8-5eed-4db0-a3b1-84fda171126b")
 		)
@@ -24175,7 +24811,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.47M"
+		(property "Value" "2M"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "6c38887d-8bbe-4771-98a1-3c016fb0d3f9")
@@ -25956,7 +26592,7 @@
 			(size 0.85 0.25)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 89 "/Solar Charger/MPPT2/MPPC")
+			(net 89 "/Solar Charger/MPPC2")
 			(pinfunction "MPPC")
 			(pintype "input")
 			(uuid "426008b5-30f5-432f-9b70-46bdb21999df")
@@ -26804,7 +27440,7 @@
 				(justify left mirror)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "?R"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "c91c8679-01f3-495b-abc0-90d969acbeef")
@@ -26848,7 +27484,7 @@
 		(path "/757bbe31-359d-4282-a8be-b82658fcdbcd/1b2a84db-7299-4b09-850e-e2cd4641f4fa")
 		(sheetname "/Coil Driver/")
 		(sheetfile "CoilDriver.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -28842,7 +29478,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "1.87M"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "2fa4922c-36ae-46e8-8328-3731bbc8e892")
@@ -29783,7 +30419,7 @@
 		(path "/757bbe31-359d-4282-a8be-b82658fcdbcd/8d7b2944-0c0e-4aab-abbc-2e35df3d9ba2")
 		(sheetname "/Coil Driver/")
 		(sheetfile "CoilDriver.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -30214,7 +30850,7 @@
 			(size 0.85 0.25)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 87 "/Solar Charger/MPPT/MPPC")
+			(net 87 "/Solar Charger/MPPC")
 			(pinfunction "MPPC")
 			(pintype "input")
 			(uuid "9c7e3431-7c6a-4f38-b092-f6cfd1f4b20e")
@@ -30623,7 +31259,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "126k"
+		(property "Value" "127k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "c36fbc6d-f882-47bc-a31f-e20ff715d927")
@@ -30667,7 +31303,7 @@
 		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/517b7d88-30ec-426d-a8e1-4f503e5f63ef")
 		(sheetname "/Solar Charger/")
 		(sheetfile "SolarCharger.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -30785,7 +31421,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 89 "/Solar Charger/MPPT2/MPPC")
+			(net 89 "/Solar Charger/MPPC2")
 			(pintype "passive")
 			(uuid "49aef042-2367-47e3-874f-82fdcf4e335f")
 		)
@@ -31342,7 +31978,7 @@
 			(size 0.85 0.25)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 88 "/Solar Charger/MPPT1/MPPC")
+			(net 88 "/Solar Charger/MPPC1")
 			(pinfunction "MPPC")
 			(pintype "input")
 			(uuid "5eeb7680-3185-4e01-a01f-976ba8d1d097")
@@ -31750,7 +32386,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.47M"
+		(property "Value" "2M"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "3fbc1619-4a58-4ecc-9ae5-c4db78144ea8")
@@ -32206,7 +32842,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "126k"
+		(property "Value" "100k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "e88c14f1-eed6-4688-9346-3de2b7f10e16")
@@ -32250,7 +32886,7 @@
 		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/f6af4c69-f245-49e1-bc10-51ecd7b7ebb2")
 		(sheetname "/Solar Charger/")
 		(sheetfile "SolarCharger.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -32368,7 +33004,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 87 "/Solar Charger/MPPT/MPPC")
+			(net 87 "/Solar Charger/MPPC")
 			(pintype "passive")
 			(uuid "bd3c7542-28d8-42f7-bf6a-547997809379")
 		)
@@ -33949,7 +34585,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "182k"
+		(property "Value" "137k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "f29912bd-70c3-4d05-947b-ce183de624a8")
@@ -34417,7 +35053,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34598,7 +35234,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1M"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "b9c741ba-bebe-4daf-94fe-b3150a56235f")
@@ -37841,7 +38477,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "560R"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "53fa9ba6-73ac-436a-9369-36971a5eaf26")
@@ -38794,7 +39430,7 @@
 				(justify left mirror)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "270k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "5a09b88d-3c42-46a0-99d2-9c5bc373a617")
@@ -40361,7 +40997,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "182k"
+		(property "Value" "140k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "83541e70-ce8a-4a95-9f01-3b6f1e319968")
@@ -43965,7 +44601,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "1.8M"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "df023435-246f-4b98-83a9-c3cda2b5e689")
@@ -44009,7 +44645,7 @@
 		(path "/bef00a2e-eb3a-4ecf-812a-1c3ccf6e8d66/2c2584c8-f98f-4d7a-851e-691d59f02e37")
 		(sheetname "/Solar Charger/")
 		(sheetfile "SolarCharger.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -44136,7 +44772,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 87 "/Solar Charger/MPPT/MPPC")
+			(net 87 "/Solar Charger/MPPC")
 			(pintype "passive")
 			(uuid "5fb375be-a2f3-4735-bab9-36d5145aabba")
 		)
@@ -46476,7 +47112,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.91M"
+		(property "Value" "1.87M"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "2ca4a426-c595-4a21-a935-55f4c496b6ad")
@@ -46727,7 +47363,7 @@
 		(path "/757bbe31-359d-4282-a8be-b82658fcdbcd/ab5bc3b2-df65-4324-849d-a1b3c427a9af")
 		(sheetname "/Coil Driver/")
 		(sheetfile "CoilDriver.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -47110,7 +47746,7 @@
 				(justify right mirror)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "270k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "9e670745-d888-44cb-b9e2-f1c95ae53fd5")
@@ -48294,7 +48930,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48475,7 +49111,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2k7"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "66f1c173-4d32-4c50-9216-4b374edbbdda")
@@ -49123,7 +49759,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "182k"
+		(property "Value" "140k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "c82ea8fe-1610-4b68-ae4c-0819aa5adb70")
@@ -49374,7 +50010,7 @@
 		(path "/757bbe31-359d-4282-a8be-b82658fcdbcd/be12a40c-9541-467a-8546-54908317f157")
 		(sheetname "/Coil Driver/")
 		(sheetfile "CoilDriver.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -51212,7 +51848,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -51437,7 +52073,7 @@
 		(path "/757bbe31-359d-4282-a8be-b82658fcdbcd/54126b22-7ae7-429c-aee3-c538e4d7483e")
 		(sheetname "/Coil Driver/")
 		(sheetfile "CoilDriver.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -52849,7 +53485,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C2214844"
+		(property "MPN" "C126592"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55023,7 +55659,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "100.0000 mm"
+		(gr_text "3937.0079 mils"
 			(at 104.2092 102.400101 90)
 			(layer "Dwgs.User")
 			(uuid "0b6e2c1f-5073-4141-8db7-a6f26f8970af")
@@ -55060,7 +55696,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "82.0000 mm"
+		(gr_text "3228.3465 mils"
 			(at 152.39985 44.3922 0)
 			(layer "Dwgs.User")
 			(uuid "f5c3fef8-b682-4523-9119-7866dc33ab6c")
@@ -73061,7 +73697,7 @@
 				(xy 127.8681 103.2819) (xy 137.1047 103.2819) (xy 137.163831 103.301113) (xy 137.200376 103.351413)
 				(xy 137.2053 103.3825) (xy 137.2053 114.402608) (xy 137.207869 114.43524) (xy 137.207871 114.435257)
 				(xy 137.212789 114.466306) (xy 137.213578 114.470952) (xy 137.213579 114.470957) (xy 137.25008 114.556355)
-				(xy 137.250081 114.556357) (xy 137.250082 114.556358) (xy 137.286627 114.606658) (xy 137.311244 114.634834)
+				(xy 137.250081 114.556356) (xy 137.250082 114.556358) (xy 137.286627 114.606658) (xy 137.311244 114.634834)
 				(xy 137.390977 114.682472) (xy 137.450108 114.701685) (xy 137.514595 114.711899) (xy 137.514597 114.7119)
 				(xy 137.5146 114.7119) (xy 138.860365 114.7119) (xy 138.919496 114.731113) (xy 138.956041 114.781413)
 				(xy 138.956041 114.843587) (xy 138.9315 114.883635) (xy 138.926279 114.888855) (xy 138.880538 114.992448)
@@ -73613,14 +74249,25 @@
 				(xy 177.646413 119.339624) (xy 177.6775 119.3347) (xy 180.69659 119.3347) (xy 180.6966 119.3347)
 				(xy 180.72925 119.33213) (xy 180.760337 119.327206) (xy 180.764952 119.326422) (xy 180.850358 119.289918)
 				(xy 180.900658 119.253373) (xy 180.928834 119.228756) (xy 180.976472 119.149023) (xy 180.995685 119.089892)
-				(xy 181.0059 119.0254) (xy 181.0059 114.8125) (xy 181.025113 114.753369) (xy 181.075413 114.716824)
-				(xy 181.1065 114.7119) (xy 183.54139 114.7119) (xy 183.5414 114.7119) (xy 183.57405 114.70933) (xy 183.605137 114.704406)
-				(xy 183.609752 114.703622) (xy 183.695158 114.667118) (xy 183.745458 114.630573) (xy 183.773634 114.605956)
-				(xy 183.821272 114.526223) (xy 183.840485 114.467092) (xy 183.8507 114.4026) (xy 183.8507 109.727)
-				(xy 183.84813 109.69435) (xy 183.843206 109.663263) (xy 183.842422 109.658648) (xy 183.84242 109.658644)
-				(xy 183.84242 109.658642) (xy 183.805919 109.573244) (xy 183.805918 109.573243) (xy 183.805918 109.573242)
-				(xy 183.769373 109.522942) (xy 183.744756 109.494766) (xy 183.665023 109.447128) (xy 183.644828 109.440566)
-				(xy 183.605891 109.427914) (xy 183.541404 109.4177) (xy 183.5414 109.4177) (xy 140.7713 109.4177)
+				(xy 181.0059 119.0254) (xy 181.0059 114.7052) (xy 181.00333 114.67255) (xy 180.998406 114.641463)
+				(xy 180.997622 114.636848) (xy 180.99762 114.636844) (xy 180.99762 114.636842) (xy 180.961119 114.551444)
+				(xy 180.961118 114.551443) (xy 180.961118 114.551442) (xy 180.924573 114.501142) (xy 180.899956 114.472966)
+				(xy 180.820223 114.425328) (xy 180.800028 114.418766) (xy 180.761091 114.406114) (xy 180.696604 114.3959)
+				(xy 180.6966 114.3959) (xy 180.222408 114.3959) (xy 180.163277 114.376687) (xy 180.126732 114.326387)
+				(xy 180.126732 114.264213) (xy 180.151273 114.224165) (xy 180.404074 113.971363) (xy 180.459471 113.943137)
+				(xy 180.475209 113.941898) (xy 180.812456 113.941898) (xy 180.857058 113.933027) (xy 180.907634 113.899233)
+				(xy 180.941428 113.848657) (xy 180.9503 113.804056) (xy 180.950299 112.503943) (xy 180.941428 112.459341)
+				(xy 180.941426 112.459337) (xy 180.907635 112.408766) (xy 180.907633 112.408764) (xy 180.857057 112.37497)
+				(xy 180.821328 112.367863) (xy 180.812457 112.366099) (xy 180.812456 112.366099) (xy 180.172344 112.366099)
+				(xy 180.127742 112.37497) (xy 180.127738 112.374972) (xy 180.077167 112.408763) (xy 180.077165 112.408765)
+				(xy 180.043371 112.459341) (xy 180.0345 112.503942) (xy 180.0345 113.507591) (xy 180.031991 113.515311)
+				(xy 180.033261 113.523328) (xy 180.022566 113.544316) (xy 180.015287 113.566722) (xy 180.005035 113.578726)
+				(xy 179.907635 113.676126) (xy 179.852237 113.704352) (xy 179.790829 113.694626) (xy 179.746865 113.650662)
+				(xy 179.7359 113.604991) (xy 179.7359 109.727005) (xy 179.735899 109.726991) (xy 179.733922 109.701873)
+				(xy 179.73333 109.69435) (xy 179.728406 109.663263) (xy 179.727622 109.658648) (xy 179.72762 109.658644)
+				(xy 179.72762 109.658642) (xy 179.691119 109.573244) (xy 179.691118 109.573243) (xy 179.691118 109.573242)
+				(xy 179.654573 109.522942) (xy 179.629956 109.494766) (xy 179.550223 109.447128) (xy 179.530028 109.440566)
+				(xy 179.491091 109.427914) (xy 179.426604 109.4177) (xy 179.4266 109.4177) (xy 140.7713 109.4177)
 				(xy 140.712169 109.398487) (xy 140.675624 109.348187) (xy 140.6707 109.3171) (xy 140.6707 107.016105)
 				(xy 149.249901 107.016105) (xy 149.249901 107.156694) (xy 149.286283 107.292474) (xy 149.286283 107.292475)
 				(xy 149.334309 107.375657) (xy 149.356575 107.414222) (xy 149.455979 107.513626) (xy 149.536773 107.560273)
@@ -77192,27 +77839,22 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 180.233325 114.605839) (xy 180.284846 114.614) (xy 180.284849 114.614) (xy 180.505808 114.614)
-				(xy 180.55973 114.629672) (xy 180.565797 114.633524) (xy 180.567111 114.634834) (xy 180.579804 114.642417)
-				(xy 180.58095 114.643145) (xy 180.581292 114.643559) (xy 180.582312 114.644265) (xy 180.588297 114.647563)
-				(xy 180.591345 114.649313) (xy 180.618621 114.665609) (xy 180.646844 114.682472) (xy 180.705975 114.701685)
-				(xy 180.712337 114.702692) (xy 180.767734 114.730918) (xy 180.795961 114.786315) (xy 180.7972 114.802054)
-				(xy 180.7972 119.0254) (xy 180.777987 119.084531) (xy 180.727687 119.121076) (xy 180.6966 119.126)
-				(xy 174.0154 119.126) (xy 174.0154 120.2954) (xy 173.996187 120.354531) (xy 173.945887 120.391076)
-				(xy 173.9148 120.396) (xy 171.3728 120.396) (xy 171.313669 120.376787) (xy 171.277124 120.326487)
-				(xy 171.2722 120.2954) (xy 171.2722 119.42167) (xy 171.291413 119.362539) (xy 171.301665 119.350535)
-				(xy 171.8564 118.7958) (xy 171.8564 117.91931) (xy 171.8569 117.917445) (xy 171.8569 117.783555)
-				(xy 171.8564 117.781689) (xy 171.8564 117.0676) (xy 171.875613 117.008469) (xy 171.925913 116.971924)
-				(xy 171.957 116.967) (xy 172.031064 116.967) (xy 172.038712 116.967501) (xy 172.041463 116.967501)
-				(xy 172.134698 116.967501) (xy 172.134714 116.9675) (xy 175.125737 116.9675) (xy 175.125738 116.9675)
-				(xy 175.157089 116.959099) (xy 175.209841 116.944966) (xy 175.209843 116.944965) (xy 175.209843 116.944964)
-				(xy 175.209846 116.944964) (xy 175.285255 116.901426) (xy 175.346826 116.839855) (xy 175.346826 116.839853)
-				(xy 175.355104 116.831576) (xy 175.355106 116.831572) (xy 176.292972 115.893706) (xy 176.292976 115.893704)
-				(xy 176.301253 115.885426) (xy 176.301255 115.885426) (xy 176.362826 115.823855) (xy 176.406364 115.748446)
-				(xy 176.406365 115.748443) (xy 176.406366 115.748441) (xy 176.428898 115.664344) (xy 176.4289 115.664336)
-				(xy 176.4289 115.58577) (xy 176.448113 115.526639) (xy 176.458365 115.514635) (xy 176.6316 115.3414)
-				(xy 176.6316 114.7052) (xy 176.650813 114.646069) (xy 176.701113 114.609524) (xy 176.7322 114.6046)
-				(xy 180.217586 114.6046)
+				(xy 180.755731 114.623813) (xy 180.792276 114.674113) (xy 180.7972 114.7052) (xy 180.7972 119.0254)
+				(xy 180.777987 119.084531) (xy 180.727687 119.121076) (xy 180.6966 119.126) (xy 174.0154 119.126)
+				(xy 174.0154 120.2954) (xy 173.996187 120.354531) (xy 173.945887 120.391076) (xy 173.9148 120.396)
+				(xy 171.3728 120.396) (xy 171.313669 120.376787) (xy 171.277124 120.326487) (xy 171.2722 120.2954)
+				(xy 171.2722 119.42167) (xy 171.291413 119.362539) (xy 171.301665 119.350535) (xy 171.8564 118.7958)
+				(xy 171.8564 117.91931) (xy 171.8569 117.917445) (xy 171.8569 117.783555) (xy 171.8564 117.781689)
+				(xy 171.8564 117.0676) (xy 171.875613 117.008469) (xy 171.925913 116.971924) (xy 171.957 116.967)
+				(xy 172.031064 116.967) (xy 172.038712 116.967501) (xy 172.041463 116.967501) (xy 172.134698 116.967501)
+				(xy 172.134714 116.9675) (xy 175.125737 116.9675) (xy 175.125738 116.9675) (xy 175.157089 116.959099)
+				(xy 175.209841 116.944966) (xy 175.209843 116.944965) (xy 175.209843 116.944964) (xy 175.209846 116.944964)
+				(xy 175.285255 116.901426) (xy 175.346826 116.839855) (xy 175.346826 116.839853) (xy 175.355104 116.831576)
+				(xy 175.355106 116.831572) (xy 176.292972 115.893706) (xy 176.292976 115.893704) (xy 176.301253 115.885426)
+				(xy 176.301255 115.885426) (xy 176.362826 115.823855) (xy 176.406364 115.748446) (xy 176.406365 115.748443)
+				(xy 176.406366 115.748441) (xy 176.428898 115.664344) (xy 176.4289 115.664336) (xy 176.4289 115.58577)
+				(xy 176.448113 115.526639) (xy 176.458365 115.514635) (xy 176.6316 115.3414) (xy 176.6316 114.7052)
+				(xy 176.650813 114.646069) (xy 176.701113 114.609524) (xy 176.7322 114.6046) (xy 180.6966 114.6046)
 			)
 		)
 	)
@@ -77733,60 +78375,49 @@
 		)
 		(polygon
 			(pts
-				(xy 183.642 114.5032) (xy 137.414 114.5032) (xy 137.414 103.0732) (xy 124.5108 103.0732) (xy 124.5108 100.0252)
-				(xy 140.462 100.0252) (xy 140.462 109.6264) (xy 183.642 109.6264)
+				(xy 179.5272 114.5032) (xy 137.414 114.5032) (xy 137.414 103.0732) (xy 124.5108 103.0732) (xy 124.5108 100.0252)
+				(xy 140.462 100.0252) (xy 140.462 109.6264) (xy 179.5272 109.6264)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
 				(xy 140.420531 100.044413) (xy 140.457076 100.094713) (xy 140.462 100.1258) (xy 140.462 109.6264)
-				(xy 183.5414 109.6264) (xy 183.600531 109.645613) (xy 183.637076 109.695913) (xy 183.642 109.727)
-				(xy 183.642 114.4026) (xy 183.622787 114.461731) (xy 183.572487 114.498276) (xy 183.5414 114.5032)
-				(xy 180.770467 114.5032) (xy 180.711336 114.483987) (xy 180.696676 114.46874) (xy 180.696269 114.469148)
-				(xy 180.689265 114.462144) (xy 180.68926 114.462141) (xy 180.68926 114.46214) (xy 180.62188 114.417119)
-				(xy 180.621879 114.417118) (xy 180.574282 114.40765) (xy 180.562464 114.4053) (xy 180.562463 114.4053)
-				(xy 180.284849 114.4053) (xy 180.225718 114.386087) (xy 180.189173 114.335787) (xy 180.189173 114.273613)
-				(xy 180.213714 114.233565) (xy 180.425116 114.022164) (xy 180.480514 113.993938) (xy 180.496251 113.992699)
-				(xy 180.817463 113.992699) (xy 180.817464 113.992699) (xy 180.87688 113.98088) (xy 180.94426 113.935859)
-				(xy 180.989281 113.868479) (xy 181.0011 113.809063) (xy 181.0011 112.498935) (xy 180.989281 112.439519)
-				(xy 180.94426 112.372139) (xy 180.87688 112.327118) (xy 180.876879 112.327117) (xy 180.829282 112.317649)
-				(xy 180.817464 112.315299) (xy 180.167336 112.315299) (xy 180.157478 112.317259) (xy 180.10792 112.327117)
-				(xy 180.04054 112.372139) (xy 179.995518 112.439519) (xy 179.9837 112.498935) (xy 179.9837 113.48655)
-				(xy 179.964487 113.545681) (xy 179.954235 113.557685) (xy 179.673685 113.838235) (xy 179.618287 113.866461)
-				(xy 179.60255 113.8677) (xy 176.435662 113.8677) (xy 176.435661 113.8677) (xy 176.435655 113.867701)
-				(xy 176.351558 113.890233) (xy 176.351556 113.890234) (xy 176.276144 113.933774) (xy 175.833574 114.376344)
-				(xy 175.789374 114.452901) (xy 175.743169 114.494503) (xy 175.702252 114.5032) (xy 165.251067 114.5032)
-				(xy 165.191936 114.483987) (xy 165.177276 114.46874) (xy 165.176869 114.469148) (xy 165.169865 114.462144)
-				(xy 165.16986 114.462141) (xy 165.16986 114.46214) (xy 165.10248 114.417119) (xy 165.102479 114.417118)
-				(xy 165.054882 114.40765) (xy 165.043064 114.4053) (xy 165.043063 114.4053) (xy 164.765449 114.4053)
-				(xy 164.706318 114.386087) (xy 164.669773 114.335787) (xy 164.669773 114.273613) (xy 164.694314 114.233565)
-				(xy 164.905716 114.022164) (xy 164.961114 113.993938) (xy 164.976851 113.992699) (xy 165.298063 113.992699)
-				(xy 165.298064 113.992699) (xy 165.35748 113.98088) (xy 165.42486 113.935859) (xy 165.469881 113.868479)
-				(xy 165.4817 113.809063) (xy 165.4817 112.498935) (xy 165.469881 112.439519) (xy 165.42486 112.372139)
-				(xy 165.35748 112.327118) (xy 165.357479 112.327117) (xy 165.309882 112.317649) (xy 165.298064 112.315299)
-				(xy 164.647936 112.315299) (xy 164.638078 112.317259) (xy 164.58852 112.327117) (xy 164.52114 112.372139)
-				(xy 164.476118 112.439519) (xy 164.4643 112.498935) (xy 164.4643 113.48655) (xy 164.445087 113.545681)
-				(xy 164.434835 113.557685) (xy 164.179685 113.812835) (xy 164.124287 113.841061) (xy 164.10855 113.8423)
-				(xy 160.814662 113.8423) (xy 160.814661 113.8423) (xy 160.814655 113.842301) (xy 160.730558 113.864833)
-				(xy 160.730556 113.864834) (xy 160.655144 113.908374) (xy 160.263374 114.300144) (xy 160.219834 114.375556)
-				(xy 160.219834 114.375557) (xy 160.205612 114.428637) (xy 160.17175 114.480781) (xy 160.113705 114.503062)
-				(xy 160.10844 114.5032) (xy 149.757067 114.5032) (xy 149.697936 114.483987) (xy 149.683276 114.46874)
-				(xy 149.682869 114.469148) (xy 149.675865 114.462144) (xy 149.67586 114.462141) (xy 149.67586 114.46214)
-				(xy 149.60848 114.417119) (xy 149.608479 114.417118) (xy 149.560882 114.40765) (xy 149.549064 114.4053)
-				(xy 149.549063 114.4053) (xy 149.268249 114.4053) (xy 149.209118 114.386087) (xy 149.172573 114.335787)
-				(xy 149.172573 114.273613) (xy 149.197114 114.233565) (xy 149.408516 114.022164) (xy 149.463914 113.993938)
-				(xy 149.479651 113.992699) (xy 149.804063 113.992699) (xy 149.804064 113.992699) (xy 149.86348 113.98088)
-				(xy 149.93086 113.935859) (xy 149.975881 113.868479) (xy 149.9877 113.809063) (xy 149.9877 112.498935)
-				(xy 149.975881 112.439519) (xy 149.93086 112.372139) (xy 149.86348 112.327118) (xy 149.863479 112.327117)
-				(xy 149.815882 112.317649) (xy 149.804064 112.315299) (xy 149.153936 112.315299) (xy 149.144078 112.317259)
-				(xy 149.09452 112.327117) (xy 149.02714 112.372139) (xy 148.982118 112.439519) (xy 148.9703 112.498935)
-				(xy 148.9703 113.483348) (xy 148.951087 113.542479) (xy 148.940835 113.554483) (xy 148.682484 113.812835)
-				(xy 148.627086 113.841061) (xy 148.611349 113.8423) (xy 145.371462 113.8423) (xy 145.371461 113.8423)
-				(xy 145.371455 113.842301) (xy 145.287358 113.864833) (xy 145.287356 113.864834) (xy 145.211944 113.908374)
-				(xy 144.743974 114.376344) (xy 144.699774 114.452901) (xy 144.653569 114.494503) (xy 144.612652 114.5032)
-				(xy 137.5146 114.5032) (xy 137.455469 114.483987) (xy 137.418924 114.433687) (xy 137.414 114.4026)
-				(xy 137.414 103.0732) (xy 127.5588 103.0732) (xy 127.5588 100.0252) (xy 140.3614 100.0252)
+				(xy 179.4266 109.6264) (xy 179.485731 109.645613) (xy 179.522276 109.695913) (xy 179.5272 109.727)
+				(xy 179.5272 113.7671) (xy 179.507987 113.826231) (xy 179.457687 113.862776) (xy 179.4266 113.8677)
+				(xy 176.435662 113.8677) (xy 176.435661 113.8677) (xy 176.435655 113.867701) (xy 176.351558 113.890233)
+				(xy 176.351556 113.890234) (xy 176.276144 113.933774) (xy 175.833574 114.376344) (xy 175.789374 114.452901)
+				(xy 175.743169 114.494503) (xy 175.702252 114.5032) (xy 165.251067 114.5032) (xy 165.191936 114.483987)
+				(xy 165.177276 114.46874) (xy 165.176869 114.469148) (xy 165.169865 114.462144) (xy 165.16986 114.462141)
+				(xy 165.16986 114.46214) (xy 165.10248 114.417119) (xy 165.102479 114.417118) (xy 165.054882 114.40765)
+				(xy 165.043064 114.4053) (xy 165.043063 114.4053) (xy 164.765449 114.4053) (xy 164.706318 114.386087)
+				(xy 164.669773 114.335787) (xy 164.669773 114.273613) (xy 164.694314 114.233565) (xy 164.905716 114.022164)
+				(xy 164.961114 113.993938) (xy 164.976851 113.992699) (xy 165.298063 113.992699) (xy 165.298064 113.992699)
+				(xy 165.35748 113.98088) (xy 165.42486 113.935859) (xy 165.469881 113.868479) (xy 165.4817 113.809063)
+				(xy 165.4817 112.498935) (xy 165.469881 112.439519) (xy 165.42486 112.372139) (xy 165.35748 112.327118)
+				(xy 165.357479 112.327117) (xy 165.309882 112.317649) (xy 165.298064 112.315299) (xy 164.647936 112.315299)
+				(xy 164.638078 112.317259) (xy 164.58852 112.327117) (xy 164.52114 112.372139) (xy 164.476118 112.439519)
+				(xy 164.4643 112.498935) (xy 164.4643 113.48655) (xy 164.445087 113.545681) (xy 164.434835 113.557685)
+				(xy 164.179685 113.812835) (xy 164.124287 113.841061) (xy 164.10855 113.8423) (xy 160.814662 113.8423)
+				(xy 160.814661 113.8423) (xy 160.814655 113.842301) (xy 160.730558 113.864833) (xy 160.730556 113.864834)
+				(xy 160.655144 113.908374) (xy 160.263374 114.300144) (xy 160.219834 114.375556) (xy 160.219834 114.375557)
+				(xy 160.205612 114.428637) (xy 160.17175 114.480781) (xy 160.113705 114.503062) (xy 160.10844 114.5032)
+				(xy 149.757067 114.5032) (xy 149.697936 114.483987) (xy 149.683276 114.46874) (xy 149.682869 114.469148)
+				(xy 149.675865 114.462144) (xy 149.67586 114.462141) (xy 149.67586 114.46214) (xy 149.60848 114.417119)
+				(xy 149.608479 114.417118) (xy 149.560882 114.40765) (xy 149.549064 114.4053) (xy 149.549063 114.4053)
+				(xy 149.268249 114.4053) (xy 149.209118 114.386087) (xy 149.172573 114.335787) (xy 149.172573 114.273613)
+				(xy 149.197114 114.233565) (xy 149.408516 114.022164) (xy 149.463914 113.993938) (xy 149.479651 113.992699)
+				(xy 149.804063 113.992699) (xy 149.804064 113.992699) (xy 149.86348 113.98088) (xy 149.93086 113.935859)
+				(xy 149.975881 113.868479) (xy 149.9877 113.809063) (xy 149.9877 112.498935) (xy 149.975881 112.439519)
+				(xy 149.93086 112.372139) (xy 149.86348 112.327118) (xy 149.863479 112.327117) (xy 149.815882 112.317649)
+				(xy 149.804064 112.315299) (xy 149.153936 112.315299) (xy 149.144078 112.317259) (xy 149.09452 112.327117)
+				(xy 149.02714 112.372139) (xy 148.982118 112.439519) (xy 148.9703 112.498935) (xy 148.9703 113.483348)
+				(xy 148.951087 113.542479) (xy 148.940835 113.554483) (xy 148.682484 113.812835) (xy 148.627086 113.841061)
+				(xy 148.611349 113.8423) (xy 145.371462 113.8423) (xy 145.371461 113.8423) (xy 145.371455 113.842301)
+				(xy 145.287358 113.864833) (xy 145.287356 113.864834) (xy 145.211944 113.908374) (xy 144.743974 114.376344)
+				(xy 144.699774 114.452901) (xy 144.653569 114.494503) (xy 144.612652 114.5032) (xy 137.5146 114.5032)
+				(xy 137.455469 114.483987) (xy 137.418924 114.433687) (xy 137.414 114.4026) (xy 137.414 103.0732)
+				(xy 127.5588 103.0732) (xy 127.5588 100.0252) (xy 140.3614 100.0252)
 			)
 		)
 	)
