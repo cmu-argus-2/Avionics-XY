@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus XY Solar Panel")
-		(date "2025-04-20")
-		(rev "v3.1")
+		(date "2026-01-27")
+		(rev "v4.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "N. Khera")
 		(comment 2 "V. Rajesh")
@@ -20,23 +20,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.938 0)
+			(property "Reference" "U1"
+				(at 0 11.43 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Value" "OPT4003DNPRQ1"
-				(at 0 9.398 0)
+				(at 0 9.144 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "USON6_DNP_TEX"
+			(property "Footprint" "Argus-IC:OPT4003"
 				(at -12.446 -11.684 0)
 				(effects
 					(font
@@ -58,6 +58,15 @@
 			)
 			(property "Description" ""
 				(at -20.32 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C22406808"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)

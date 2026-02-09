@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus XY Solar Panel")
-		(date "2025-04-20")
-		(rev "v3.1")
+		(date "2026-01-27")
+		(rev "v4.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "N. Khera")
 		(comment 2 "V. Rajesh")
@@ -20,7 +20,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U9"
 				(at 25.4 10.16 0)
 				(effects
 					(font
@@ -36,7 +36,7 @@
 					)
 				)
 			)
-			(property "Footprint" "WQFN16_RTE_TEX"
+			(property "Footprint" "Argus-IC:WQFN16_RTE_TEX"
 				(at 0 0 0)
 				(effects
 					(font
@@ -448,22 +448,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q23"
-				(at 2.54 1.27 0)
+			(property "Reference" "Q1"
+				(at 3.81 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "IRLML2803"
-				(at 2.54 -1.27 0)
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -1072,7 +1070,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pin" "1=K 2=A"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5760,6 +5758,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

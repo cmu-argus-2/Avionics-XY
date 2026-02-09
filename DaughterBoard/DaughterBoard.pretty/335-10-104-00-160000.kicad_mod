@@ -1,0 +1,113 @@
+(footprint "335-10-104-00-160000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.429 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe6213ec-d93c-4075-97cb-7bf8e4aaef7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "335-10-104-00-160000"
+		(at 0 3.429 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "28721107-0a38-4a13-ab87-a24105ae1156")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c055381a-20f6-436d-b057-fe1611ff6a32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "515fb1de-d5c3-479a-aee1-95b5fe894e4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b5abd4d-0340-40b1-835e-ccc0ceedfa2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.81 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e8c68d09-9d2b-414c-8c15-cfbebb8219d6")
+	)
+	(pad "2" smd roundrect
+		(at -1.27 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "70de4707-493c-4fbf-aed2-de661224bcee")
+	)
+	(pad "3" smd roundrect
+		(at 1.27 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "d9dcab15-6526-435f-879b-0aa8e7179727")
+	)
+	(pad "4" smd roundrect
+		(at 3.81 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "3837e32d-6853-4a98-aad2-8f7bc0be9f9e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/335-10-104-00-160000.STEP"
+		(offset
+			(xyz 3.81 3.175 0.254)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

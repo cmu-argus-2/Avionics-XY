@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus XY Solar Panel")
-		(date "2025-04-20")
-		(rev "v3.1")
+		(date "2026-01-27")
+		(rev "v4.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "N. Khera")
 		(comment 2 "V. Rajesh")
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Value" "LTC3130"
+			(property "Value" "LTC3130IUDC"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -55,6 +55,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C684244"
 				(at 0 0 0)
 				(effects
 					(font

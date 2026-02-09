@@ -5,8 +5,9 @@
 	(uuid "97f94396-60c9-4c6c-a20e-ac089a9019f8")
 	(paper "A4")
 	(title_block
-		(date "2025-04-20")
-		(rev "v3.1")
+		(title "Argus XY Solar Panel")
+		(date "2026-01-27")
+		(rev "v4.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "N. Khera")
 		(comment 2 "V. Rajesh")
