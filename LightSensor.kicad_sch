@@ -1834,7 +1834,7 @@
 			(uuid "88e1da3e-7ae1-469c-9386-32e5b7058738")
 		)
 		(instances
-			(project ""
+			(project "Avionics-SolarPanels"
 				(path "/92e58b76-9357-4452-b231-18fffdf58e73/11f70c33-4cbb-4233-8e61-18a8fe174f05"
 					(reference "F1")
 					(unit 1)

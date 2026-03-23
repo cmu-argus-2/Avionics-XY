@@ -1601,7 +1601,7 @@
 			(uuid "cac585ff-eb65-459c-ab71-38178b5ca684")
 		)
 		(instances
-			(project ""
+			(project "Avionics-SolarPanels"
 				(path "/92e58b76-9357-4452-b231-18fffdf58e73/cb41067c-1338-498e-94c1-f33ab5080b97"
 					(reference "R103")
 					(unit 1)
@@ -1668,7 +1668,7 @@
 			(uuid "9a341112-f4e6-4550-970b-77adffd3452f")
 		)
 		(instances
-			(project ""
+			(project "Avionics-SolarPanels"
 				(path "/92e58b76-9357-4452-b231-18fffdf58e73/cb41067c-1338-498e-94c1-f33ab5080b97"
 					(reference "#PWR018")
 					(unit 1)
@@ -1855,7 +1855,7 @@
 			(uuid "ba4c6948-d9b2-4cbb-88d4-35991fd7b155")
 		)
 		(instances
-			(project ""
+			(project "Avionics-SolarPanels"
 				(path "/92e58b76-9357-4452-b231-18fffdf58e73/cb41067c-1338-498e-94c1-f33ab5080b97"
 					(reference "U11")
 					(unit 1)

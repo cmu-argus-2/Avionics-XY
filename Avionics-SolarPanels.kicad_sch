@@ -442,7 +442,7 @@
 			(uuid "d7f21392-5ce9-4742-9509-75329113aeaf")
 		)
 		(instances
-			(project ""
+			(project "Avionics-SolarPanels"
 				(path "/92e58b76-9357-4452-b231-18fffdf58e73"
 					(reference "H1")
 					(unit 1)
